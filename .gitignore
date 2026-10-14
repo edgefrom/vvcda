@@ -6,11 +6,6 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
-# 本地数据（真实回合数据不应进入公开仓库）
-data/turns/
-data/experiments/
-data/opponents/
-
 # 环境
 .venv/
 venv/
