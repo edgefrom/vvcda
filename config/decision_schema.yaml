@@ -76,14 +76,34 @@ fields:
     default: null
     applies_to: [ASIA]
 
-  # 研发投资（跨年累积效应）
-  rd_investment:
-    name: rd_investment
-    unit: "千元"
+  # 研发投资（分属性：性能 / 电池寿命；跨年累积效应）
+  # 注意：填的是钱（千€），不是属性值；练习回合可适度，正式回合别砍到底（股价受研发影响）
+  rd_performance:
+    name: rd_performance
+    unit: "千€"
     kind: continuous
     lower: 0
     upper: null
     default: null
+    applies_to: []
+
+  rd_battery:
+    name: rd_battery
+    unit: "千€"
+    kind: continuous
+    lower: 0
+    upper: null
+    default: null
+    applies_to: []
+
+  # 客户服务：额外质保期限（单位是「月」，市场平均 12 个月，低于 12 会扣需求）
+  warranty_months:
+    name: warranty_months
+    unit: "月"
+    kind: integer
+    lower: 6
+    upper: 60
+    default: 12
     applies_to: []
 
   # 市场调研投入（结果文件显示为 600 / 1200 两档）

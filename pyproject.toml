@@ -5,6 +5,7 @@ description = "商海之弈（CESIM Marketing 手机案例）回合制经营决�
 requires-python = ">=3.11"
 dependencies = [
     "numpy",
+    "pandas",
     "scipy",
     "pydantic>=2",
     "PyYAML",

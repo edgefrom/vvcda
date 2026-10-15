@@ -1,4 +1,5 @@
 numpy
+pandas
 scipy
 pydantic>=2
 PyYAML

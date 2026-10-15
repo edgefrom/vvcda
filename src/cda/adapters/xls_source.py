@@ -60,12 +60,16 @@ def _per_product_map(df: pd.DataFrame, row: int, base: int, market: str, width: 
 
 
 def _company_columns(df: pd.DataFrame) -> list[tuple[str, int]]:
-    """返回 [(公司名, 列基准)]。公司名在行 1，每家占 6 列。"""
+    """返回 [(公司名, 列基准)]。公司名在行 1，每家占 6 列。
+
+    公司名可能是真实队名（如「观澜」「维维一笑 队」），不假设前缀。
+    每家公司的名字出现在其 6 列区间的第一列，其余 5 列为空。
+    """
     out: list[tuple[str, int]] = []
     row = df.iloc[1]
     for col in range(1, df.shape[1]):
-        val = str(row[col]).strip().replace(" ", "")
-        if val and val != "nan" and val.startswith("公司"):
+        val = str(row[col]).strip()
+        if val and val != "nan":
             out.append((val, col))
     return out
 
