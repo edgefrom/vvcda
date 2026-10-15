@@ -16,8 +16,8 @@ flowchart TB
         EV[eval<br/>蒙特卡洛+目标]
         OUT[output<br/>建议格式化]
     end
-    UI[ui/app.py<br/>Streamlit 界面]
-    DATA[data/<br/>回合记录/实验/对手档案]
+    CLI[scripts/<br/>命令行入口]
+    DATA[data/<br/>原始下载物 + 回合记录]
 
     CFG --> SC
     AD --> SC
@@ -30,8 +30,8 @@ flowchart TB
     DM --> EV
     OPT --> EV
     EV --> OUT
-    OUT --> UI
-    AD --> UI
+    OUT --> CLI
+    AD --> CLI
 ```
 
 ## 各模块职责
@@ -45,7 +45,7 @@ flowchart TB
 | 优化器 | `src/cda/optimize/` | 约束定义 + 搜索最优决策 | schemas |
 | 评估层 | `src/cda/eval/` | 情景模拟、代理目标、不确定性分布 | schemas、demand |
 | 输出层 | `src/cda/output/` | 把结果格式化成人类可读建议 | schemas |
-| 界面 | `ui/app.py` | 录入、存档、建议查看 | 以上全部 |
+| 命令行入口 | `scripts/` | 端到端演示与批处理 | 以上全部 |
 
 ## 关键设计决策
 
@@ -60,5 +60,5 @@ flowchart TB
 ```
 人工录入/手动导出 → adapters(JSON) → TurnRecord[] → demand.fit → DemandModel
     → optimize(约束+DE) + eval(蒙特卡洛) → Recommendation → output.to_markdown
-    → Streamlit 展示 → 人类讨论定稿 → 人工提交平台
+    → 终端/脚本输出 → 人类讨论定稿 → 人工提交平台
 ```

@@ -1,8 +1,8 @@
 # ============================================================
-# 市场调研报告的结构化转写（先验来源）—— 已从 manual_download/市场调研报告.pdf 提取
+# 市场调研报告的结构化转写（先验来源）—— 已从 data/raw/市场调研报告.pdf 提取
 # 数据来源：平台市场调研报告（9 页，图片型 PDF，2026/10/12 下载）
 # 重要：以下数值为「图表人工转写的近似值」，方向可靠、精确值需回合数据校准。
-# 字段含义见 docs/data-contracts.md 与 docs/market-research-extracted.md
+# 字段含义见 docs/technical/data-contracts.md 与 docs/guides/market-research-extracted.md
 # ============================================================
 
 segments:

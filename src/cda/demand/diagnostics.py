@@ -1,7 +1,7 @@
 """非线性诊断：判断 logit 线性模型对真实份额的拟合是否足够。
 
 输出 R²、RMSE 与残差统计；R² 偏低或残差有系统模式时，提示需要
-加非线性变换（升级路径见 docs/modeling-decisions.md D5）。
+加非线性变换（升级路径见 docs/technical/modeling-decisions.md D5）。
 """
 from __future__ import annotations
 

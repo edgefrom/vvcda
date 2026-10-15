@@ -3,5 +3,4 @@ pandas
 scipy
 pydantic>=2
 PyYAML
-streamlit
 pytest

@@ -13,46 +13,53 @@ python -m pip install -r requirements.txt
 # 运行测试
 python -m pytest
 
-# 启动决策支持界面
-python -m streamlit run ui/app.py
+# 核心算法端到端演示（合成数据 → 需求估计 → 蒙特卡洛 → 搜索 → 建议）
+python scripts/demo.py
 ```
 
 ## 目录结构
 
 ```
 cda/
-├── config/                 # 平台相关的配置（登录后按真实平台填写）
-│   ├── decision_schema.yaml   # 决策表单字段定义（ground truth）
-│   └── market_research.yaml   # 市场调研文件转写（8 细分×偏好，先验来源）
-├── data/                   # 每回合数据（不入库，见 .gitignore）
-│   ├── turns/              # 每回合完整记录（JSON）
-│   ├── experiments/        # 受控实验记录
-│   └── opponents/          # 对手档案
-├── src/cda/                # 平台无关的核心包
+├── IMPORTANT.md            # ⭐ 入口：当前回合决策卡（最优先看这个）
+├── AGENTS.md               # AI 代理 / 协作者指南
+├── config/                 # 平台相关配置（登录后按真实平台填写）
+│   ├── decision_schema.yaml   # 决策表单字段定义
+│   └── market_research.yaml   # 市场调研转写（8 细分×偏好，先验来源）
+├── data/
+│   └── raw/                # 原始下载物（入库）
+│       ├── 决策指南.pdf / 市场调研报告.pdf
+│       └── results/        # 练习回合结果 xls（23 份）
+├── src/cda/                # 平台无关核心算法包
 │   ├── schemas.py          # 统一数据结构（全项目依赖根）
-│   ├── adapters/           # 多接口数据适配层（JSON/CSV/内存 + 注册表）
-│   ├── demand/             # 需求模型（logit 吸引力基线，可在线更新）
-│   ├── opponent/           # 对手建模（类型识别）
-│   ├── optimize/           # 约束 + 差分进化搜索
-│   ├── eval/               # 蒙特卡洛情景评估 + 代理目标
-│   └── output/             # 建议格式化（人类可读）
-├── ui/app.py               # Streamlit 界面（录入/存档/建议）
+│   ├── adapters/           # 数据适配层（JSON/CSV/内存 + 注册表 + xls 解析）
+│   ├── demand/             # 需求模型（logit 基线 + 贝叶斯 + RLS）
+│   ├── opponent/           # 对手建模（类型识别 + 纳什预判）
+│   ├── optimize/           # 约束 + 差分进化 / 分层搜索
+│   ├── eval/               # 财务仿真 + 蒙特卡洛 + 代理目标
+│   └── output/             # 建议格式化（Markdown）
+├── scripts/                # 命令行入口（demo.py 端到端演示）
 ├── tests/                  # 合成数据测试
-└── docs/                   # 架构、数据契约、工作流、决策日志模板
+└── docs/
+    ├── guides/             # 给全队看（算法解读/工作流/复盘/提取）
+    ├── technical/          # 给技术看（架构/数据契约/建模决策）
+    └── decision-log/       # 每回合决策日志
 ```
 
 ## 文档导航
 
 | 文档 | 内容 | 读者 |
 |---|---|---|
-| `docs/algorithm-explained.md` | **算法通俗解读**（这套系统在做什么、能/不能帮你什么） | 👥 全队 |
-| `docs/modeling-decisions.md` | 建模决策记录（方法论、优先级、砍掉/保留项） | 技术 |
-| `docs/architecture.md` | 分层架构与模块边界 | 技术 |
-| `docs/data-contracts.md` | 统一数据结构与配置字段的精确含义 | 技术 |
-| `docs/market-research-extracted.md` | 市场调研报告 9 页的结构化提取 | 全队 |
-| `docs/decision-guide-extracted.md` | 决策指南 36 页的规则与决策空间提取 | 全队 |
-| `docs/workflow.md` | 每日闭环工作流 + 练习回合实验设计 | 全队 |
-| `docs/decision-log/template.md` | 每回合决策日志模板 | 全队 |
+| `IMPORTANT.md` | ⭐ **入口**：当前回合决策卡（截止时间/照抄值/交卷清单） | 👥 全队 |
+| `docs/guides/algorithm-explained.md` | 算法通俗解读（做什么、能/不能帮你什么） | 👥 全队 |
+| `docs/guides/workflow.md` | 每日闭环工作流 + 练习回合实验设计 | 👥 全队 |
+| `docs/guides/round1-analysis.md` | 练习回合 1 全市场复盘（弹性/盈利密码） | 👥 全队 |
+| `docs/guides/decision-guide-extracted.md` | 决策指南 36 页的规则与决策空间提取 | 👥 全队 |
+| `docs/guides/market-research-extracted.md` | 市场调研报告 9 页的结构化提取 | 👥 全队 |
+| `docs/technical/architecture.md` | 分层架构与模块边界 | 技术 |
+| `docs/technical/data-contracts.md` | 统一数据结构与配置字段的精确含义 | 技术 |
+| `docs/technical/modeling-decisions.md` | 建模决策记录（方法论、优先级、砍掉/保留项） | 技术 |
+| `docs/decision-log/template.md` | 每回合决策日志模板 | 👥 全队 |
 | `AGENTS.md` | 面向 AI 代理的仓库指南（约定、命令、红线） | AI |
 
 ## 设计原则

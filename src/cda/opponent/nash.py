@@ -1,7 +1,7 @@
 """可插拔纳什预判（防御性工具，默认不启用）。
 
 用途：万一对手也在用类似的量化模型（理性优化），预判他们可能收敛到的
-价格，作为「最坏情景」之一输入优化器。注意局限（docs/modeling-decisions.md D1）：
+价格，作为「最坏情景」之一输入优化器。注意局限（docs/technical/modeling-decisions.md D1）：
 对手大多非完全理性，纳什预判只作情景参考，不作为主策略。
 """
 from __future__ import annotations

@@ -3,7 +3,7 @@
 样本极少（~160 观测）时，先验相当于「白送的数据」。用共轭正态先验
 得到解析后验（无需 MCMC），输出系数后验均值与置信区间。
 
-升级路径见 docs/modeling-decisions.md D1/D5。
+升级路径见 docs/technical/modeling-decisions.md D1/D5。
 """
 from __future__ import annotations
 

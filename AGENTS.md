@@ -10,7 +10,7 @@
 ## 技术约定
 
 - Python 3.11+，系统环境（**不创建 venv**）。
-- 依赖：numpy、scipy、pydantic>=2、PyYAML、streamlit、pytest（见 `pyproject.toml`）。
+- 依赖：numpy、pandas、scipy、pydantic>=2、PyYAML、pytest（见 `pyproject.toml`）。
 - 核心包 `src/cda`，**平台无关**；平台相关逻辑只在 `config/*.yaml` 与 `src/cda/adapters/`。
 - 数据结构定义在 `src/cda/schemas.py`（全项目依赖根），改结构先改这里。
 
@@ -19,7 +19,7 @@
 ```powershell
 python -m pytest                          # 跑全部测试
 python -m pytest tests/test_demand_recover.py -v   # 单测
-python -m streamlit run ui/app.py         # 启动界面
+python scripts/demo.py                    # 核心算法端到端演示
 ```
 
 ## 新增数据源的步骤
@@ -36,5 +36,5 @@ python -m streamlit run ui/app.py         # 启动界面
 
 ## 文档维护原则
 
-- 每次改动接口或配置字段，同步更新 `docs/data-contracts.md`。
+- 每次改动接口或配置字段，同步更新 `docs/technical/data-contracts.md`。
 - 每回合决策记录走 `docs/decision-log/template.md`，保留人类决策理由。

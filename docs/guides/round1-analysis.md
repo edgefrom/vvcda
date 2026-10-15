@@ -1,6 +1,6 @@
 # 练习回合 1 全市场分析（25 赛区）
 
-> 数据：`manual_download/` 下 25 个赛区的练习回合 1 结果（247 家公司、988 个细分观测）。
+> 数据：`data/raw/results/` 下 25 个赛区的练习回合 1 结果（247 家公司、988 个细分观测）。
 > 分析方法见 `src/cda/analysis.py`（`load_all_markets` / `fit_segment_elasticities` / `benchmark_profitable`）。
 
 ## 结论 1：股价 ≈ 利润的映射
