@@ -13,7 +13,7 @@ def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest().lower()
 def read(p): return json.loads(p.read_text(encoding='utf-8-sig'))
 
 def main():
-    counts={'archived_manual_originals':0,'canonical_byte_matches':0,'canonical_semantic_matches':0,'frozen_files':0,'screenshots':0,'legacy_files':0,'formal_cohorts':0,'formal_companies':0}
+    counts={'archived_manual_originals':0,'canonical_byte_matches':0,'canonical_semantic_matches':0,'frozen_files':0,'screenshots':0,'legacy_files':0,'legacy_cache_entries_intentionally_excluded':0,'formal_cohorts':0,'formal_companies':0}
     for manifest in sorted((ROOT/'data/intake').glob('*.json')):
         m=read(manifest)
         if m['status']!='complete_verified': raise AssertionError(f'Incomplete intake: {manifest.name}')
@@ -40,6 +40,11 @@ def main():
     with (legacy/'move-manifest.csv').open(encoding='utf-8-sig',newline='') as fp:
         for r in csv.DictReader(fp):
             p=legacy/r['OriginalPath'].replace('\\','/')
+            # The historical manifest also recorded compiled local caches.
+            # Preserve that manifest, but do not require ignored garbage.
+            if '__pycache__' in p.parts or '.pytest_cache' in p.parts or p.suffix in {'.pyc','.pyo'}:
+                counts['legacy_cache_entries_intentionally_excluded']+=1
+                continue
             assert sha(p)==r['SHA256'].lower(),r['OriginalPath']
             counts['legacy_files']+=1
     d=read(ROOT/'analysis/formal-round-01/diagnosis.json')
