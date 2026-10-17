@@ -1,0 +1,2479 @@
+{
+  "batch": "20261017T221830",
+  "status": "complete_verified",
+  "files": [
+    {
+      "original_path": "manual\\1-3\\1\\results-ir00.xls",
+      "sha256": "6e2c8b8ccc62102ea01cf26109f6e5c4e82b52992d82d861cdc3952e736b6328",
+      "bytes": 137216,
+      "original_mtime": "2026-10-13T10:52:22",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-ir00.xls",
+      "semantic_sha256": "364d0ffeb0d4523ebc74de5f3f88743ff51cb9cd58bc8962355a94132f090a7e",
+      "roster_sha256": "28e41116b880122d975976ed6f7dd5bbb674bb9e52f37bdd7c1828f25bdb5cad",
+      "roster": [
+        "公司 I",
+        "公司A",
+        "公司B",
+        "公司C",
+        "公司D",
+        "公司E",
+        "公司F",
+        "公司G",
+        "公司H",
+        "公司J",
+        "公司K",
+        "公司L"
+      ],
+      "title": "市场调研报告",
+      "sheet_shapes": [
+        [
+          "Results",
+          291,
+          73
+        ]
+      ],
+      "kind": "reference-initial-unassigned",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\reference-initial-unassigned\\cohort-28e41116b880-364d0ffe.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-ir00.xlsx",
+      "sha256": "c00e6e8c59df604481d4e8c360477194bd30315817fa566c06d792cc40d2b06c",
+      "bytes": 55420,
+      "original_mtime": "2026-10-13T10:53:24",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-ir00.xlsx",
+      "semantic_sha256": "aa66db651c4004d95800450635aafcb837024932612ca0c82f80a64d313d14cf",
+      "roster_sha256": "28e41116b880122d975976ed6f7dd5bbb674bb9e52f37bdd7c1828f25bdb5cad",
+      "roster": [
+        "公司 I",
+        "公司A",
+        "公司B",
+        "公司C",
+        "公司D",
+        "公司E",
+        "公司F",
+        "公司G",
+        "公司H",
+        "公司J",
+        "公司K",
+        "公司L"
+      ],
+      "title": "市场调研报告",
+      "sheet_shapes": [
+        [
+          "Results",
+          291,
+          73
+        ]
+      ],
+      "kind": "reference-initial-unassigned",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\reference-initial-unassigned\\cohort-28e41116b880-aa66db65.xlsx"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (1).xls",
+      "sha256": "cb6bde4f47c91746fc905aaecd4399dfa25bceaf315e57d5b3cc75e111b52698",
+      "bytes": 115200,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (1).xls",
+      "semantic_sha256": "b411c0bfe0f438c3ba3ec22302c53a672b2219050e989f1cde5618bc6aecc666",
+      "roster_sha256": "1fc9659d58be386a0e85acddcedce3edb496a8ca3cce6ac1e9c3570cc9b69518",
+      "roster": [
+        "BMWZ",
+        "上海志英",
+        "二斤桃",
+        "华尔街哮天犬",
+        "巴巴博弈\n大大收益",
+        "弈本万利队",
+        "拘谨年轻人",
+        "月入千万队",
+        "通苏共济",
+        "鸭子国"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (1).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (10).xls",
+      "sha256": "a9bb9505f899c9d64f1d3534722b9e9ef92ab48a2462d17117595d8b83c3be39",
+      "bytes": 116224,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (10).xls",
+      "semantic_sha256": "4476aa981e824909934fc61664dc4d09681d22e35657a98d8fe141ada4499a4e",
+      "roster_sha256": "6061e082f31913d3d5bde9f163d30eb2473e33483a69a9bbef255587305e8398",
+      "roster": [
+        "一本万里",
+        "偏要和你作队",
+        "全科四点零",
+        "华尔街之良",
+        "对对队",
+        "披着鹿皮的狼",
+        "棉花娃娃说得队",
+        "波尔街之狼",
+        "海底小纵队",
+        "纵横商海"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (10).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (11).xls",
+      "sha256": "61a630ac8cd85c07c3addaed7bf0196e40f18755e7a3b14e2cd473ca6fc84b12",
+      "bytes": 115712,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (11).xls",
+      "semantic_sha256": "23280ce3d6739122deb0048f43a3562b91bf124f0f5388299f7414b9246dfbde",
+      "roster_sha256": "0e3986c1cd494f5163bc6808fe453603bdc33647f6b2b9d2a447a66da2bd7da8",
+      "roster": [
+        "QUOI",
+        "SMAil",
+        "一股作气",
+        "奶龙会赚钱",
+        "开挂了",
+        "新世纪福音战士",
+        "爱会消失对不队",
+        "经商",
+        "该队伍已注销",
+        "野生奶娃"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (11).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (12).xls",
+      "sha256": "39fcfa0302ab725b559e647b03bc2a029ee6fc19fb0cf5f0b19a50e5f843a974",
+      "bytes": 114176,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (12).xls",
+      "semantic_sha256": "15dc2b99e0822d75ad7fa50082643a0366eb46c2e71ae3efb66812e2cf009496",
+      "roster_sha256": "3286cb72685c79bfc03f837fd0d4ed9c9eb262679880c0acadc6ee5ea7516c92",
+      "roster": [
+        "ZZYS",
+        "ai大人说的都队",
+        "什么档次和我作队",
+        "保本行动组",
+        "嘎达嘎达",
+        "弈起耍起队",
+        "我们的决策都队",
+        "疯狂星期四",
+        "矿泉水队",
+        "脆脆鲨"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (12).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (13).xls",
+      "sha256": "7fcaa76952eed1aec9ceabf1f3eabbffaaac2584014d458ede2a59784a763d46",
+      "bytes": 115712,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (13).xls",
+      "semantic_sha256": "3effc1b59e9f2bc57b07483aac181c5ce42ddbdc1018d23af0203c4dce393245",
+      "roster_sha256": "4d75bca778b964c7307d0a1747ba91a95928b95d42b978b63bde9057125190e9",
+      "roster": [
+        "jet two",
+        "人民当家作组",
+        "唐凌寰宇",
+        "四区战车",
+        "扬帆队",
+        "维维一笑队",
+        "苏州街之狼",
+        "观澜",
+        "观澜智弈队",
+        "跟党走就队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (13).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (14).xls",
+      "sha256": "38a7fa8294fa2ebbcd6e412cae15b34da441b7cf3b88ae326589e8bba17e22bd",
+      "bytes": 115200,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (14).xls",
+      "semantic_sha256": "f3a1a6133df32b789d37784a502bba7e2e680a8d7bfb2a012ca670b8c65a1e23",
+      "roster_sha256": "17d424f9af3619be7f2bb9d0113a24436be52ed4bb76326026e0a4457c7a045b",
+      "roster": [
+        "Apex Capital",
+        "仁爱路狙击手",
+        "做空友商队",
+        "华尔街\n大狗狗队",
+        "商海BOYS",
+        "复利者联盟",
+        "捞钱干饭",
+        "神猪小队",
+        "筹策",
+        "谋智远望"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (14).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (15).xls",
+      "sha256": "8befbec93dc8e962c4e2c84b5d1b8d66d40de886277eceb065a053c0470f4bdf",
+      "bytes": 114688,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (15).xls",
+      "semantic_sha256": "3438d29e48b752404526f2bb9a77886c572c5fb10dc928ff1523a384227c692a",
+      "roster_sha256": "420a90e0f03c75815597a386da9586e214afc240472bb4c1162119282296413a",
+      "roster": [
+        "Buffet",
+        "丝路同辙",
+        "你说的都队",
+        "华尔街大狗狗",
+        "商海游泳队",
+        "四方来财队",
+        "宗门老组",
+        "巴蜀没有派队",
+        "棱镜Prism",
+        "金融街小猪"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (15).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (16).xls",
+      "sha256": "80763655917746462e425caacd912fe3911f250dd19aa75b18417f231f8090b6",
+      "bytes": 115712,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (16).xls",
+      "semantic_sha256": "dfc46f3e2e53060b67185937551011a0474a439b0fba0aa1d1551f193b48d97b",
+      "roster_sha256": "42a9ed6c4eb1128215ed392300b381f02739698049621388b45ae541f865d92e",
+      "roster": [
+        "你好请排队",
+        "冰带风味热红茶",
+        "华尔街路边四条",
+        "四九七九",
+        "大A",
+        "我们做的都对",
+        "搞钱研究所",
+        "无言以队",
+        "草台班子队",
+        "通利福尼亚企划"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (16).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (17).xls",
+      "sha256": "cb96046f695a11fe36fc685ececcde27c240f504481fd3d5b129fb7e5ec62ba6",
+      "bytes": 114688,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (17).xls",
+      "semantic_sha256": "03b2746d5acc5fc7228f02353172d325d5a190685bc1185db21737a87b970382",
+      "roster_sha256": "d44c7869768ec1893738b798a1c7d98b7255a652f26f0eb4d712c8ae0615c4a6",
+      "roster": [
+        "ABC",
+        "会得奖的对不队",
+        "咪咪无敌队",
+        "四元一次方程组",
+        "对不队",
+        "摸鱼事务所",
+        "汪旺队立大功",
+        "落子事务所",
+        "钞能商战队",
+        "饿饿灵"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (17).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (18).xls",
+      "sha256": "444d8a5e4940ff0bf72576a40dc02e20931f3657edbafbfdfd0e8b8e04c0cf35",
+      "bytes": 115200,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (18).xls",
+      "semantic_sha256": "3a2b024ce306e5c86126485891aee028948f8e9f80c1591ce01d1a16da4cac6a",
+      "roster_sha256": "c9087664236fd5f837750b23da7a8567d7d41ab64c09755d538084228346ce75",
+      "roster": [
+        "Qi家军",
+        "云顶之奕",
+        "京乐",
+        "华尔街之狼",
+        "华尔街之馕",
+        "啊对对队",
+        "山海机弈",
+        "战狼来了",
+        "珠峰登顶队",
+        "防破产姐妹"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (18).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (19).xls",
+      "sha256": "742da27c15ab9273b496e13bdb902dc6bcef3582b11b371d4768cfe144093bcf",
+      "bytes": 116736,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (19).xls",
+      "semantic_sha256": "cd214769dbacc1adfc60243cec1b59754667364427ea5d26b281851aab88ad3a",
+      "roster_sha256": "cf4bf6f5aac6c996f563eadceb3ded1b886018eed195d1185931a43c7fe3b544",
+      "roster": [
+        "一起玩耍队",
+        "华尔街之狼",
+        "大小姐说的队",
+        "对对队",
+        "延河路大鳄",
+        "弈策知行队",
+        "毫无头绪队",
+        "法海队",
+        "潞城四小虫",
+        "蹦沙卡拉卡蹦蹦蹦"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (19).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (2).xls",
+      "sha256": "74daf9e5ef6602eabb6ad50116805ba7acd16b3c3c54c7e00d5ba99ef96a5593",
+      "bytes": 115200,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (2).xls",
+      "semantic_sha256": "fb02adf781036f4fc78c8674960cd8dde506871d221a83cc27b3ba83eaa39e66",
+      "roster_sha256": "fdeaa07d886784fc297f70a128d1c9ac54a61cdfeddfe22d0f70423a7cb36231",
+      "roster": [
+        "Deepsick",
+        "不赚钱不改名",
+        "东南西北",
+        "乱拳被老师傅打死",
+        "商海小纵队",
+        "奕花奕叶奕菩提",
+        "密室逃脱四人组",
+        "最爱下快攻队",
+        "钱会消失对不队",
+        "铲铲生金"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (2).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (20).xls",
+      "sha256": "3d2b41cc3b8e2a64114f431ea530c1515bbced29033adc5bde4e0bb606fb24d3",
+      "bytes": 104448,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (20).xls",
+      "semantic_sha256": "ff06ae4e7db3cb126939081c34f4b303e055e461cdc73734e3b1b453ff7a0b93",
+      "roster_sha256": "1529e6eb08dac94a6d8824ef086912cc7ab5032717dbd8e0ab8b0cce70d863ee",
+      "roster": [
+        "Name Editing",
+        "人民当家做组",
+        "决策做的都队",
+        "华尔街巨饿",
+        "商海弄潮儿",
+        "天弈无缝",
+        "机不可失",
+        "苏州街之狼",
+        "融法丽舍"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          55
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (20).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (21).xls",
+      "sha256": "9da813789de3cb371430605338bd97c541ae4f6b2279430f95fa3171066a05e2",
+      "bytes": 106496,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (21).xls",
+      "semantic_sha256": "b87418a583d1c897a96a7e8f8d391dfcdc7a1cb0dec803a0c1ee2746b75d1c8c",
+      "roster_sha256": "a7c91ecacc99508b085b1a72ab86ad2f391e97ede1ad8577b4249c64c332460d",
+      "roster": [
+        "人财队",
+        "商海gogo",
+        "商海四剑客",
+        "商海小鳄",
+        "商海请别伤害",
+        "有求必应",
+        "棋盘之外",
+        "甲方闭嘴",
+        "郭秋语说得都队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          55
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (21).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (22).xls",
+      "sha256": "c47b8b092d754e57bfa012a9c02af5678e6bf4bf940675217442ca0ec7e6e878",
+      "bytes": 106496,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (22).xls",
+      "semantic_sha256": "3a619ea6598f68eb224d13e773ad4a12d98745d7bd631e80310504e0d81b4ddb",
+      "roster_sha256": "4af3f8723af9c12754095694149b2dbafc0878b2a03cb5de5f63f63773d31890",
+      "roster": [
+        "BizACE",
+        "下一个纳斯达克",
+        "商海之鱼",
+        "圣杯联盟",
+        "幸好报上名队",
+        "弈鸣惊人队",
+        "我说的都队",
+        "老鼠洗完头",
+        "蛋仔派队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          55
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (22).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (3).xls",
+      "sha256": "0ae596b1b2a12e336f502b63b9e8c2fd2d73554b7db3591049977cd947f20310",
+      "bytes": 115712,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (3).xls",
+      "semantic_sha256": "a8c4b73d403f33bf1a66a85da8e4cf725b4db5be77d9ca4881ee1dd9b24102c7",
+      "roster_sha256": "08baa103076750005e8cc731b333879b3d534d479113d92dc75237142ff32f47",
+      "roster": [
+        "Bizlost",
+        "FinQuatre",
+        "乐乐闪击战",
+        "商海摸鱼队",
+        "巴巴博弈",
+        "知行小组",
+        "财富自由预备队",
+        "重仓猛干",
+        "钞能力战队",
+        "长风队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (3).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (4).xls",
+      "sha256": "58ece226316fc387821af5adf3a55d05ba20593dfcf14e1cd354f1397e0e4a10",
+      "bytes": 115712,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (4).xls",
+      "semantic_sha256": "2011cf0a37a9f5e0b5b06da59e56660e0b5cab529bac53845195efe0056c37fb",
+      "roster_sha256": "bf66b99868a812efb9ea71f6422668e82ff666205fd5e75d33687fa8aeb86b4d",
+      "roster": [
+        "AuroJade",
+        "乐邦队",
+        "先手必胜队",
+        "四维空间",
+        "小目标",
+        "楚耀钦扬",
+        "涨停板后援会",
+        "笑思咛宁",
+        "计经四座",
+        "远见四代少年团"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (4).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (5).xls",
+      "sha256": "5f7b0eff380060a82ca5acc2dc56f13d4addde0a1911cac4fd41bda65474d35e",
+      "bytes": 114688,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (5).xls",
+      "semantic_sha256": "aae5d4efc738a1257fe8bacb693bb2a8e8c9c4fd6eae17b9211c13654bb639d8",
+      "roster_sha256": "5a0a71c4bcd26975f147420bd36b60f04b278e3b104319861be844ac1a276e53",
+      "roster": [
+        "商在赛身上",
+        "四人行策队",
+        "四维象限",
+        "我的痛苦在你之商",
+        "是金子总会花光队",
+        "海上鹿车夫",
+        "海底汪汪队",
+        "紫阳东路队",
+        "胡闹商海",
+        "通州四小凤"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (5).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (6).xls",
+      "sha256": "17a7f11344235971ba7e7dfdcdc7357892df2687cc826aec76fa0989a04499d8",
+      "bytes": 115712,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (6).xls",
+      "semantic_sha256": "d26b2af94e308e8fe529abe5fc92ccee342efbd48045622a36641653354811a4",
+      "roster_sha256": "27ac2e3995ace9a69bffee562ff1e8633a78cb4d8ca0b80fb36dc0367fe2df7e",
+      "roster": [
+        "Cosmic Production",
+        "GSWL",
+        "Syxzen",
+        "WBG",
+        "noidea",
+        "不破产姐妹",
+        "厨神蒸霸",
+        "大运河之狼",
+        "弈衡队",
+        "转移资产队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (6).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (7).xls",
+      "sha256": "5a8f0cda18c89fffe54a2dfc8b08c486d7600d9489d929d1b55b04a8a1f60027",
+      "bytes": 115712,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (7).xls",
+      "semantic_sha256": "fce45a8360351fbf632ae32c7ba0088b3f565593be2d65804990856c33cb113d",
+      "roster_sha256": "b38579a77940f737b928c15e408bcd2f8a506008098ea790a371f42c62387996",
+      "roster": [
+        "CEO练习生",
+        "TriFinAI",
+        "不和人民作队",
+        "主人说的都",
+        "四隅拾思队",
+        "天时地利",
+        "影子董事会",
+        "海底小总队",
+        "知弈行远",
+        "衡弈队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (7).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (8).xls",
+      "sha256": "97e5a18a2cc131ef80d52ad7a47ca9c7e28599e55c7894800a0f41b177f8e357",
+      "bytes": 116224,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (8).xls",
+      "semantic_sha256": "c015fd68cac84f729d783351bfd96eefd145b3857782470a730e08a81d17b65b",
+      "roster_sha256": "2d1eeaf8a0957cf86324a8f7d791c6da27db1be1f8e1851a4bd749bf20a171e7",
+      "roster": [
+        "CMRW",
+        "Pecunia",
+        "X",
+        "元老院商弈团",
+        "刘强东家亲戚队",
+        "商海摸鱼队",
+        "官商不勾结队",
+        "弈本万利队",
+        "很有食力队",
+        "运河东之狼"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (8).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01 (9).xls",
+      "sha256": "ea7788c4a2a7c1d0f9f98e3f0dc3074f675b77a2fbc0eee4b0d12f40fcdcbe60",
+      "bytes": 116736,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01 (9).xls",
+      "semantic_sha256": "8a1f3adbe9c4eeae51d96e4a602504c1dc5a8c53b708f51a4d89bd188874b894",
+      "roster_sha256": "470e1ef662db9f9bb466fcb3429704d4540d07a00343cceba46d81405adc9d24",
+      "roster": [
+        "CAC",
+        "弈手遮天",
+        "弈脸茫然",
+        "旺财队",
+        "欧坤队",
+        "沃顿有危险了",
+        "疯狂星期四",
+        "疯狂星期四队",
+        "赛诺瓦",
+        "超级无敌大战舰"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (9).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\1\\results-pr01.xls",
+      "sha256": "a566e70a758d4acb6a65e3834a070c1bd37366eceeb7bedd93fb0c3b6bb87975",
+      "bytes": 117760,
+      "original_mtime": "2026-10-15T01:22:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\1\\results-pr01.xls",
+      "semantic_sha256": "a405bfd585d593beafde951cde0262ed1774c604eb511b48c383c498fa587f2b",
+      "roster_sha256": "52d99fa4741795154cc34c3f903c433d20e62b8eaa9ff7f7c65f212b7a5a9ac8",
+      "roster": [
+        "Daring Traders",
+        "letmedoitforu",
+        "下定决心向钱冲",
+        "不知道什么队",
+        "九一居士",
+        "加勒比商海盗",
+        "新世紀情歌戰士",
+        "注定不会亡",
+        "赛博DDL",
+        "雷霆爆仓队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (1).xls",
+      "sha256": "cb6bde4f47c91746fc905aaecd4399dfa25bceaf315e57d5b3cc75e111b52698",
+      "bytes": 115200,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (1).xls",
+      "semantic_sha256": "b411c0bfe0f438c3ba3ec22302c53a672b2219050e989f1cde5618bc6aecc666",
+      "roster_sha256": "1fc9659d58be386a0e85acddcedce3edb496a8ca3cce6ac1e9c3570cc9b69518",
+      "roster": [
+        "BMWZ",
+        "上海志英",
+        "二斤桃",
+        "华尔街哮天犬",
+        "巴巴博弈\n大大收益",
+        "弈本万利队",
+        "拘谨年轻人",
+        "月入千万队",
+        "通苏共济",
+        "鸭子国"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (1).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (10).xls",
+      "sha256": "a9bb9505f899c9d64f1d3534722b9e9ef92ab48a2462d17117595d8b83c3be39",
+      "bytes": 116224,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (10).xls",
+      "semantic_sha256": "4476aa981e824909934fc61664dc4d09681d22e35657a98d8fe141ada4499a4e",
+      "roster_sha256": "6061e082f31913d3d5bde9f163d30eb2473e33483a69a9bbef255587305e8398",
+      "roster": [
+        "一本万里",
+        "偏要和你作队",
+        "全科四点零",
+        "华尔街之良",
+        "对对队",
+        "披着鹿皮的狼",
+        "棉花娃娃说得队",
+        "波尔街之狼",
+        "海底小纵队",
+        "纵横商海"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (10).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (11).xls",
+      "sha256": "cd7d464aea0d8d4928404b3709aacb223c6fb0aa0fdfaa501a1e040671bab358",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (11).xls",
+      "semantic_sha256": "23280ce3d6739122deb0048f43a3562b91bf124f0f5388299f7414b9246dfbde",
+      "roster_sha256": "0e3986c1cd494f5163bc6808fe453603bdc33647f6b2b9d2a447a66da2bd7da8",
+      "roster": [
+        "QUOI",
+        "SMAil",
+        "一股作气",
+        "奶龙会赚钱",
+        "开挂了",
+        "新世纪福音战士",
+        "爱会消失对不队",
+        "经商",
+        "该队伍已注销",
+        "野生奶娃"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (11).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (12).xls",
+      "sha256": "39fcfa0302ab725b559e647b03bc2a029ee6fc19fb0cf5f0b19a50e5f843a974",
+      "bytes": 114176,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (12).xls",
+      "semantic_sha256": "15dc2b99e0822d75ad7fa50082643a0366eb46c2e71ae3efb66812e2cf009496",
+      "roster_sha256": "3286cb72685c79bfc03f837fd0d4ed9c9eb262679880c0acadc6ee5ea7516c92",
+      "roster": [
+        "ZZYS",
+        "ai大人说的都队",
+        "什么档次和我作队",
+        "保本行动组",
+        "嘎达嘎达",
+        "弈起耍起队",
+        "我们的决策都队",
+        "疯狂星期四",
+        "矿泉水队",
+        "脆脆鲨"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (12).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (13).xls",
+      "sha256": "7fcaa76952eed1aec9ceabf1f3eabbffaaac2584014d458ede2a59784a763d46",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (13).xls",
+      "semantic_sha256": "3effc1b59e9f2bc57b07483aac181c5ce42ddbdc1018d23af0203c4dce393245",
+      "roster_sha256": "4d75bca778b964c7307d0a1747ba91a95928b95d42b978b63bde9057125190e9",
+      "roster": [
+        "jet two",
+        "人民当家作组",
+        "唐凌寰宇",
+        "四区战车",
+        "扬帆队",
+        "维维一笑队",
+        "苏州街之狼",
+        "观澜",
+        "观澜智弈队",
+        "跟党走就队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (13).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (14).xls",
+      "sha256": "38a7fa8294fa2ebbcd6e412cae15b34da441b7cf3b88ae326589e8bba17e22bd",
+      "bytes": 115200,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (14).xls",
+      "semantic_sha256": "f3a1a6133df32b789d37784a502bba7e2e680a8d7bfb2a012ca670b8c65a1e23",
+      "roster_sha256": "17d424f9af3619be7f2bb9d0113a24436be52ed4bb76326026e0a4457c7a045b",
+      "roster": [
+        "Apex Capital",
+        "仁爱路狙击手",
+        "做空友商队",
+        "华尔街\n大狗狗队",
+        "商海BOYS",
+        "复利者联盟",
+        "捞钱干饭",
+        "神猪小队",
+        "筹策",
+        "谋智远望"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (14).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (15).xls",
+      "sha256": "8befbec93dc8e962c4e2c84b5d1b8d66d40de886277eceb065a053c0470f4bdf",
+      "bytes": 114688,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (15).xls",
+      "semantic_sha256": "3438d29e48b752404526f2bb9a77886c572c5fb10dc928ff1523a384227c692a",
+      "roster_sha256": "420a90e0f03c75815597a386da9586e214afc240472bb4c1162119282296413a",
+      "roster": [
+        "Buffet",
+        "丝路同辙",
+        "你说的都队",
+        "华尔街大狗狗",
+        "商海游泳队",
+        "四方来财队",
+        "宗门老组",
+        "巴蜀没有派队",
+        "棱镜Prism",
+        "金融街小猪"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (15).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (16).xls",
+      "sha256": "80763655917746462e425caacd912fe3911f250dd19aa75b18417f231f8090b6",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (16).xls",
+      "semantic_sha256": "dfc46f3e2e53060b67185937551011a0474a439b0fba0aa1d1551f193b48d97b",
+      "roster_sha256": "42a9ed6c4eb1128215ed392300b381f02739698049621388b45ae541f865d92e",
+      "roster": [
+        "你好请排队",
+        "冰带风味热红茶",
+        "华尔街路边四条",
+        "四九七九",
+        "大A",
+        "我们做的都对",
+        "搞钱研究所",
+        "无言以队",
+        "草台班子队",
+        "通利福尼亚企划"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (16).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (17).xls",
+      "sha256": "cb96046f695a11fe36fc685ececcde27c240f504481fd3d5b129fb7e5ec62ba6",
+      "bytes": 114688,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (17).xls",
+      "semantic_sha256": "03b2746d5acc5fc7228f02353172d325d5a190685bc1185db21737a87b970382",
+      "roster_sha256": "d44c7869768ec1893738b798a1c7d98b7255a652f26f0eb4d712c8ae0615c4a6",
+      "roster": [
+        "ABC",
+        "会得奖的对不队",
+        "咪咪无敌队",
+        "四元一次方程组",
+        "对不队",
+        "摸鱼事务所",
+        "汪旺队立大功",
+        "落子事务所",
+        "钞能商战队",
+        "饿饿灵"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (17).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (18).xls",
+      "sha256": "444d8a5e4940ff0bf72576a40dc02e20931f3657edbafbfdfd0e8b8e04c0cf35",
+      "bytes": 115200,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (18).xls",
+      "semantic_sha256": "3a2b024ce306e5c86126485891aee028948f8e9f80c1591ce01d1a16da4cac6a",
+      "roster_sha256": "c9087664236fd5f837750b23da7a8567d7d41ab64c09755d538084228346ce75",
+      "roster": [
+        "Qi家军",
+        "云顶之奕",
+        "京乐",
+        "华尔街之狼",
+        "华尔街之馕",
+        "啊对对队",
+        "山海机弈",
+        "战狼来了",
+        "珠峰登顶队",
+        "防破产姐妹"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (18).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (19).xls",
+      "sha256": "742da27c15ab9273b496e13bdb902dc6bcef3582b11b371d4768cfe144093bcf",
+      "bytes": 116736,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (19).xls",
+      "semantic_sha256": "cd214769dbacc1adfc60243cec1b59754667364427ea5d26b281851aab88ad3a",
+      "roster_sha256": "cf4bf6f5aac6c996f563eadceb3ded1b886018eed195d1185931a43c7fe3b544",
+      "roster": [
+        "一起玩耍队",
+        "华尔街之狼",
+        "大小姐说的队",
+        "对对队",
+        "延河路大鳄",
+        "弈策知行队",
+        "毫无头绪队",
+        "法海队",
+        "潞城四小虫",
+        "蹦沙卡拉卡蹦蹦蹦"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (19).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (2).xls",
+      "sha256": "74daf9e5ef6602eabb6ad50116805ba7acd16b3c3c54c7e00d5ba99ef96a5593",
+      "bytes": 115200,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (2).xls",
+      "semantic_sha256": "fb02adf781036f4fc78c8674960cd8dde506871d221a83cc27b3ba83eaa39e66",
+      "roster_sha256": "fdeaa07d886784fc297f70a128d1c9ac54a61cdfeddfe22d0f70423a7cb36231",
+      "roster": [
+        "Deepsick",
+        "不赚钱不改名",
+        "东南西北",
+        "乱拳被老师傅打死",
+        "商海小纵队",
+        "奕花奕叶奕菩提",
+        "密室逃脱四人组",
+        "最爱下快攻队",
+        "钱会消失对不队",
+        "铲铲生金"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (2).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (20).xls",
+      "sha256": "3d2b41cc3b8e2a64114f431ea530c1515bbced29033adc5bde4e0bb606fb24d3",
+      "bytes": 104448,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (20).xls",
+      "semantic_sha256": "ff06ae4e7db3cb126939081c34f4b303e055e461cdc73734e3b1b453ff7a0b93",
+      "roster_sha256": "1529e6eb08dac94a6d8824ef086912cc7ab5032717dbd8e0ab8b0cce70d863ee",
+      "roster": [
+        "Name Editing",
+        "人民当家做组",
+        "决策做的都队",
+        "华尔街巨饿",
+        "商海弄潮儿",
+        "天弈无缝",
+        "机不可失",
+        "苏州街之狼",
+        "融法丽舍"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          55
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (20).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (21).xls",
+      "sha256": "9da813789de3cb371430605338bd97c541ae4f6b2279430f95fa3171066a05e2",
+      "bytes": 106496,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (21).xls",
+      "semantic_sha256": "b87418a583d1c897a96a7e8f8d391dfcdc7a1cb0dec803a0c1ee2746b75d1c8c",
+      "roster_sha256": "a7c91ecacc99508b085b1a72ab86ad2f391e97ede1ad8577b4249c64c332460d",
+      "roster": [
+        "人财队",
+        "商海gogo",
+        "商海四剑客",
+        "商海小鳄",
+        "商海请别伤害",
+        "有求必应",
+        "棋盘之外",
+        "甲方闭嘴",
+        "郭秋语说得都队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          55
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (21).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (22).xls",
+      "sha256": "c47b8b092d754e57bfa012a9c02af5678e6bf4bf940675217442ca0ec7e6e878",
+      "bytes": 106496,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (22).xls",
+      "semantic_sha256": "3a619ea6598f68eb224d13e773ad4a12d98745d7bd631e80310504e0d81b4ddb",
+      "roster_sha256": "4af3f8723af9c12754095694149b2dbafc0878b2a03cb5de5f63f63773d31890",
+      "roster": [
+        "BizACE",
+        "下一个纳斯达克",
+        "商海之鱼",
+        "圣杯联盟",
+        "幸好报上名队",
+        "弈鸣惊人队",
+        "我说的都队",
+        "老鼠洗完头",
+        "蛋仔派队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          55
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (22).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (3).xls",
+      "sha256": "0ae596b1b2a12e336f502b63b9e8c2fd2d73554b7db3591049977cd947f20310",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (3).xls",
+      "semantic_sha256": "a8c4b73d403f33bf1a66a85da8e4cf725b4db5be77d9ca4881ee1dd9b24102c7",
+      "roster_sha256": "08baa103076750005e8cc731b333879b3d534d479113d92dc75237142ff32f47",
+      "roster": [
+        "Bizlost",
+        "FinQuatre",
+        "乐乐闪击战",
+        "商海摸鱼队",
+        "巴巴博弈",
+        "知行小组",
+        "财富自由预备队",
+        "重仓猛干",
+        "钞能力战队",
+        "长风队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (3).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (4).xls",
+      "sha256": "58ece226316fc387821af5adf3a55d05ba20593dfcf14e1cd354f1397e0e4a10",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (4).xls",
+      "semantic_sha256": "2011cf0a37a9f5e0b5b06da59e56660e0b5cab529bac53845195efe0056c37fb",
+      "roster_sha256": "bf66b99868a812efb9ea71f6422668e82ff666205fd5e75d33687fa8aeb86b4d",
+      "roster": [
+        "AuroJade",
+        "乐邦队",
+        "先手必胜队",
+        "四维空间",
+        "小目标",
+        "楚耀钦扬",
+        "涨停板后援会",
+        "笑思咛宁",
+        "计经四座",
+        "远见四代少年团"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (4).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (5).xls",
+      "sha256": "5f7b0eff380060a82ca5acc2dc56f13d4addde0a1911cac4fd41bda65474d35e",
+      "bytes": 114688,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (5).xls",
+      "semantic_sha256": "aae5d4efc738a1257fe8bacb693bb2a8e8c9c4fd6eae17b9211c13654bb639d8",
+      "roster_sha256": "5a0a71c4bcd26975f147420bd36b60f04b278e3b104319861be844ac1a276e53",
+      "roster": [
+        "商在赛身上",
+        "四人行策队",
+        "四维象限",
+        "我的痛苦在你之商",
+        "是金子总会花光队",
+        "海上鹿车夫",
+        "海底汪汪队",
+        "紫阳东路队",
+        "胡闹商海",
+        "通州四小凤"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (5).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (6).xls",
+      "sha256": "17a7f11344235971ba7e7dfdcdc7357892df2687cc826aec76fa0989a04499d8",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (6).xls",
+      "semantic_sha256": "d26b2af94e308e8fe529abe5fc92ccee342efbd48045622a36641653354811a4",
+      "roster_sha256": "27ac2e3995ace9a69bffee562ff1e8633a78cb4d8ca0b80fb36dc0367fe2df7e",
+      "roster": [
+        "Cosmic Production",
+        "GSWL",
+        "Syxzen",
+        "WBG",
+        "noidea",
+        "不破产姐妹",
+        "厨神蒸霸",
+        "大运河之狼",
+        "弈衡队",
+        "转移资产队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (6).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (7).xls",
+      "sha256": "5a8f0cda18c89fffe54a2dfc8b08c486d7600d9489d929d1b55b04a8a1f60027",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (7).xls",
+      "semantic_sha256": "fce45a8360351fbf632ae32c7ba0088b3f565593be2d65804990856c33cb113d",
+      "roster_sha256": "b38579a77940f737b928c15e408bcd2f8a506008098ea790a371f42c62387996",
+      "roster": [
+        "CEO练习生",
+        "TriFinAI",
+        "不和人民作队",
+        "主人说的都",
+        "四隅拾思队",
+        "天时地利",
+        "影子董事会",
+        "海底小总队",
+        "知弈行远",
+        "衡弈队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (7).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (8).xls",
+      "sha256": "97e5a18a2cc131ef80d52ad7a47ca9c7e28599e55c7894800a0f41b177f8e357",
+      "bytes": 116224,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (8).xls",
+      "semantic_sha256": "c015fd68cac84f729d783351bfd96eefd145b3857782470a730e08a81d17b65b",
+      "roster_sha256": "2d1eeaf8a0957cf86324a8f7d791c6da27db1be1f8e1851a4bd749bf20a171e7",
+      "roster": [
+        "CMRW",
+        "Pecunia",
+        "X",
+        "元老院商弈团",
+        "刘强东家亲戚队",
+        "商海摸鱼队",
+        "官商不勾结队",
+        "弈本万利队",
+        "很有食力队",
+        "运河东之狼"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (8).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01 (9).xls",
+      "sha256": "ea7788c4a2a7c1d0f9f98e3f0dc3074f675b77a2fbc0eee4b0d12f40fcdcbe60",
+      "bytes": 116736,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01 (9).xls",
+      "semantic_sha256": "8a1f3adbe9c4eeae51d96e4a602504c1dc5a8c53b708f51a4d89bd188874b894",
+      "roster_sha256": "470e1ef662db9f9bb466fcb3429704d4540d07a00343cceba46d81405adc9d24",
+      "roster": [
+        "CAC",
+        "弈手遮天",
+        "弈脸茫然",
+        "旺财队",
+        "欧坤队",
+        "沃顿有危险了",
+        "疯狂星期四",
+        "疯狂星期四队",
+        "赛诺瓦",
+        "超级无敌大战舰"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01 (9).xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据\\results-pr01.xls",
+      "sha256": "917793591565968af4e29cb84d18c8e92f506fc2e7cf6eacbaa08277ecf60876",
+      "bytes": 117760,
+      "original_mtime": "2026-10-17T20:15:16",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据\\results-pr01.xls",
+      "semantic_sha256": "a405bfd585d593beafde951cde0262ed1774c604eb511b48c383c498fa587f2b",
+      "roster_sha256": "52d99fa4741795154cc34c3f903c433d20e62b8eaa9ff7f7c65f212b7a5a9ac8",
+      "roster": [
+        "Daring Traders",
+        "letmedoitforu",
+        "下定决心向钱冲",
+        "不知道什么队",
+        "九一居士",
+        "加勒比商海盗",
+        "新世紀情歌戰士",
+        "注定不会亡",
+        "赛博DDL",
+        "雷霆爆仓队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "practice/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "existing_content",
+      "canonical_path": "data\\raw\\results-1\\results-pr01.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\2\\数据.zip",
+      "sha256": "04b04e1417a269f38664c4191eda6404e70609d46ec1fbdc5ae0e280dac9fab9",
+      "bytes": 754632,
+      "original_mtime": "2026-10-15T00:30:30",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\2\\数据.zip",
+      "kind": "source_archive",
+      "canonical_path": null,
+      "zip_members": [
+        {
+          "name": "results-pr01 (16).xls",
+          "sha256": "80763655917746462e425caacd912fe3911f250dd19aa75b18417f231f8090b6",
+          "bytes": 115712
+        },
+        {
+          "name": "results-pr01 (15).xls",
+          "sha256": "8befbec93dc8e962c4e2c84b5d1b8d66d40de886277eceb065a053c0470f4bdf",
+          "bytes": 114688
+        },
+        {
+          "name": "results-pr01 (14).xls",
+          "sha256": "38a7fa8294fa2ebbcd6e412cae15b34da441b7cf3b88ae326589e8bba17e22bd",
+          "bytes": 115200
+        },
+        {
+          "name": "results-pr01 (13).xls",
+          "sha256": "7fcaa76952eed1aec9ceabf1f3eabbffaaac2584014d458ede2a59784a763d46",
+          "bytes": 115712
+        },
+        {
+          "name": "results-pr01 (12).xls",
+          "sha256": "39fcfa0302ab725b559e647b03bc2a029ee6fc19fb0cf5f0b19a50e5f843a974",
+          "bytes": 114176
+        },
+        {
+          "name": "results-pr01 (11).xls",
+          "sha256": "cd7d464aea0d8d4928404b3709aacb223c6fb0aa0fdfaa501a1e040671bab358",
+          "bytes": 115712
+        },
+        {
+          "name": "results-pr01 (10).xls",
+          "sha256": "a9bb9505f899c9d64f1d3534722b9e9ef92ab48a2462d17117595d8b83c3be39",
+          "bytes": 116224
+        },
+        {
+          "name": "results-pr01 (9).xls",
+          "sha256": "ea7788c4a2a7c1d0f9f98e3f0dc3074f675b77a2fbc0eee4b0d12f40fcdcbe60",
+          "bytes": 116736
+        },
+        {
+          "name": "results-pr01 (8).xls",
+          "sha256": "97e5a18a2cc131ef80d52ad7a47ca9c7e28599e55c7894800a0f41b177f8e357",
+          "bytes": 116224
+        },
+        {
+          "name": "results-pr01 (7).xls",
+          "sha256": "5a8f0cda18c89fffe54a2dfc8b08c486d7600d9489d929d1b55b04a8a1f60027",
+          "bytes": 115712
+        },
+        {
+          "name": "results-pr01 (6).xls",
+          "sha256": "17a7f11344235971ba7e7dfdcdc7357892df2687cc826aec76fa0989a04499d8",
+          "bytes": 115712
+        },
+        {
+          "name": "results-pr01 (5).xls",
+          "sha256": "5f7b0eff380060a82ca5acc2dc56f13d4addde0a1911cac4fd41bda65474d35e",
+          "bytes": 114688
+        },
+        {
+          "name": "results-pr01 (4).xls",
+          "sha256": "58ece226316fc387821af5adf3a55d05ba20593dfcf14e1cd354f1397e0e4a10",
+          "bytes": 115712
+        },
+        {
+          "name": "results-pr01 (3).xls",
+          "sha256": "0ae596b1b2a12e336f502b63b9e8c2fd2d73554b7db3591049977cd947f20310",
+          "bytes": 115712
+        },
+        {
+          "name": "results-pr01 (2).xls",
+          "sha256": "74daf9e5ef6602eabb6ad50116805ba7acd16b3c3c54c7e00d5ba99ef96a5593",
+          "bytes": 115200
+        },
+        {
+          "name": "results-pr01 (1).xls",
+          "sha256": "cb6bde4f47c91746fc905aaecd4399dfa25bceaf315e57d5b3cc75e111b52698",
+          "bytes": 115200
+        },
+        {
+          "name": "results-pr01.xls",
+          "sha256": "a566e70a758d4acb6a65e3834a070c1bd37366eceeb7bedd93fb0c3b6bb87975",
+          "bytes": 117760
+        },
+        {
+          "name": "results-pr01 (22).xls",
+          "sha256": "c47b8b092d754e57bfa012a9c02af5678e6bf4bf940675217442ca0ec7e6e878",
+          "bytes": 106496
+        },
+        {
+          "name": "results-pr01 (21).xls",
+          "sha256": "9da813789de3cb371430605338bd97c541ae4f6b2279430f95fa3171066a05e2",
+          "bytes": 106496
+        },
+        {
+          "name": "results-pr01 (20).xls",
+          "sha256": "3d2b41cc3b8e2a64114f431ea530c1515bbced29033adc5bde4e0bb606fb24d3",
+          "bytes": 104448
+        },
+        {
+          "name": "results-pr01 (19).xls",
+          "sha256": "742da27c15ab9273b496e13bdb902dc6bcef3582b11b371d4768cfe144093bcf",
+          "bytes": 116736
+        },
+        {
+          "name": "results-pr01 (18).xls",
+          "sha256": "444d8a5e4940ff0bf72576a40dc02e20931f3657edbafbfdfd0e8b8e04c0cf35",
+          "bytes": 115200
+        },
+        {
+          "name": "results-pr01 (17).xls",
+          "sha256": "cb96046f695a11fe36fc685ececcde27c240f504481fd3d5b129fb7e5ec62ba6",
+          "bytes": 114688
+        }
+      ],
+      "unrepresented_members": []
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (1).xls",
+      "sha256": "9f0c214256cd0a076db03dc3509a34b1edfa7d6e8939d8c9371c0bd34175572e",
+      "bytes": 116224,
+      "original_mtime": "2026-10-17T22:06:34",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (1).xls",
+      "semantic_sha256": "e809df1246ba91dde0fe1bc7dcafb19bf66324a8ba3b3232311232bf9d72b688",
+      "roster_sha256": "1fc9659d58be386a0e85acddcedce3edb496a8ca3cce6ac1e9c3570cc9b69518",
+      "roster": [
+        "BMWZ",
+        "上海志英",
+        "二斤桃",
+        "华尔街哮天犬",
+        "巴巴博弈\n大大收益",
+        "弈本万利队",
+        "拘谨年轻人",
+        "月入千万队",
+        "通苏共济",
+        "鸭子国"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-1fc9659d58be-e809df12.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (10).xls",
+      "sha256": "a6f2cea0f1625ca3a840650a8b3287230919510cd132d7b8bce32ec3fd8b2164",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T22:07:32",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (10).xls",
+      "semantic_sha256": "298602a6ec8a3c3c468e151fece9115d34c6168fc4bebec69f17cb1caa7ef1ed",
+      "roster_sha256": "6061e082f31913d3d5bde9f163d30eb2473e33483a69a9bbef255587305e8398",
+      "roster": [
+        "一本万里",
+        "偏要和你作队",
+        "全科四点零",
+        "华尔街之良",
+        "对对队",
+        "披着鹿皮的狼",
+        "棉花娃娃说得队",
+        "波尔街之狼",
+        "海底小纵队",
+        "纵横商海"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-6061e082f319-298602a6.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (11).xls",
+      "sha256": "0555521422eb7377be96804a0aff2c4ec70b326f3d3031d46be8c3cd37816c6c",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T22:07:38",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (11).xls",
+      "semantic_sha256": "8214cf1ee08a90786340274dabf146fdbca167bd525495266d342dc50b284334",
+      "roster_sha256": "0e3986c1cd494f5163bc6808fe453603bdc33647f6b2b9d2a447a66da2bd7da8",
+      "roster": [
+        "QUOI",
+        "SMAil",
+        "一股作气",
+        "奶龙会赚钱",
+        "开挂了",
+        "新世纪福音战士",
+        "爱会消失对不队",
+        "经商",
+        "该队伍已注销",
+        "野生奶娃"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-0e3986c1cd49-8214cf1e.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (12).xls",
+      "sha256": "4d861bdfd8b7ce94bc132df5e443c068d2b6fe30dae9cb7c2952100f10d883fd",
+      "bytes": 115200,
+      "original_mtime": "2026-10-17T22:07:42",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (12).xls",
+      "semantic_sha256": "a5569b391fd6ee0ff58310526df78d3f1c7014c66657c32f6c09997cec0b94eb",
+      "roster_sha256": "3286cb72685c79bfc03f837fd0d4ed9c9eb262679880c0acadc6ee5ea7516c92",
+      "roster": [
+        "ZZYS",
+        "ai大人说的都队",
+        "什么档次和我作队",
+        "保本行动组",
+        "嘎达嘎达",
+        "弈起耍起队",
+        "我们的决策都队",
+        "疯狂星期四",
+        "矿泉水队",
+        "脆脆鲨"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-3286cb72685c-a5569b39.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (13).xls",
+      "sha256": "e4f9b399d832db0fddd656421a556f99dfe4b01f02a97047afda839bf0f78ea5",
+      "bytes": 115200,
+      "original_mtime": "2026-10-17T22:07:48",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (13).xls",
+      "semantic_sha256": "08e2a398178ba00ac24f3626e31c3cfce39b4452968c1df4316e121e1ec3b94f",
+      "roster_sha256": "4d75bca778b964c7307d0a1747ba91a95928b95d42b978b63bde9057125190e9",
+      "roster": [
+        "jet two",
+        "人民当家作组",
+        "唐凌寰宇",
+        "四区战车",
+        "扬帆队",
+        "维维一笑队",
+        "苏州街之狼",
+        "观澜",
+        "观澜智弈队",
+        "跟党走就队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-4d75bca778b9-08e2a398.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (14).xls",
+      "sha256": "8dc81556a9fc4d9c282fa9e156571a3944bee200f21fbe216206de81b49979f1",
+      "bytes": 116736,
+      "original_mtime": "2026-10-17T22:07:54",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (14).xls",
+      "semantic_sha256": "75d4aa5ac65b96012df62fdef5eeec986aa35f58b87fbb3b757154818f01810b",
+      "roster_sha256": "17d424f9af3619be7f2bb9d0113a24436be52ed4bb76326026e0a4457c7a045b",
+      "roster": [
+        "Apex Capital",
+        "仁爱路狙击手",
+        "做空友商队",
+        "华尔街\n大狗狗队",
+        "商海BOYS",
+        "复利者联盟",
+        "捞钱干饭",
+        "神猪小队",
+        "筹策",
+        "谋智远望"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-17d424f9af36-75d4aa5a.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (15).xls",
+      "sha256": "f60acafa6d1711260d60c7f8bf47cef6dba5a7aadbdb60bbca7f34aff4726143",
+      "bytes": 116224,
+      "original_mtime": "2026-10-17T22:08:00",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (15).xls",
+      "semantic_sha256": "ff99d4dc71519e94dbf169735e232256faf50f6d197c1c98aa210c1e4b384025",
+      "roster_sha256": "420a90e0f03c75815597a386da9586e214afc240472bb4c1162119282296413a",
+      "roster": [
+        "Buffet",
+        "丝路同辙",
+        "你说的都队",
+        "华尔街大狗狗",
+        "商海游泳队",
+        "四方来财队",
+        "宗门老组",
+        "巴蜀没有派队",
+        "棱镜Prism",
+        "金融街小猪"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-420a90e0f03c-ff99d4dc.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (16).xls",
+      "sha256": "1af369869a67c0ff7dcce7aa90a53342bcbed85fceaf0048b40897058c6d8b8a",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T22:08:04",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (16).xls",
+      "semantic_sha256": "bc344a590838db2da42ea74146a91f6403f7fa83bd48b441a5ed6e35b13c0027",
+      "roster_sha256": "42a9ed6c4eb1128215ed392300b381f02739698049621388b45ae541f865d92e",
+      "roster": [
+        "你好请排队",
+        "冰带风味热红茶",
+        "华尔街路边四条",
+        "四九七九",
+        "大A",
+        "我们做的都对",
+        "搞钱研究所",
+        "无言以队",
+        "草台班子队",
+        "通利福尼亚企划"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-42a9ed6c4eb1-bc344a59.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (17).xls",
+      "sha256": "ad3fded4ac3e0cf087c5191757c521aa26bba0afb1f952943672af4c447158c2",
+      "bytes": 115200,
+      "original_mtime": "2026-10-17T22:08:10",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (17).xls",
+      "semantic_sha256": "3b4bfd95c2607001a1bef0405f71e838144e752b16c06f707613b3dcf7ebaa6a",
+      "roster_sha256": "d44c7869768ec1893738b798a1c7d98b7255a652f26f0eb4d712c8ae0615c4a6",
+      "roster": [
+        "ABC",
+        "会得奖的对不队",
+        "咪咪无敌队",
+        "四元一次方程组",
+        "对不队",
+        "摸鱼事务所",
+        "汪旺队立大功",
+        "落子事务所",
+        "钞能商战队",
+        "饿饿灵"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-d44c7869768e-3b4bfd95.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (18).xls",
+      "sha256": "6e689cc78a74650873bd08b9f2fcab37bb99fb58390a6213837e7865d2282b64",
+      "bytes": 115200,
+      "original_mtime": "2026-10-17T22:08:14",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (18).xls",
+      "semantic_sha256": "6641cad5cf4087d314a489e9cfa082222e5626da6582c9cae2af7628cb31397b",
+      "roster_sha256": "c9087664236fd5f837750b23da7a8567d7d41ab64c09755d538084228346ce75",
+      "roster": [
+        "Qi家军",
+        "云顶之奕",
+        "京乐",
+        "华尔街之狼",
+        "华尔街之馕",
+        "啊对对队",
+        "山海机弈",
+        "战狼来了",
+        "珠峰登顶队",
+        "防破产姐妹"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-c9087664236f-6641cad5.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (19).xls",
+      "sha256": "8584425a288ac812f50a5b0656ae0a833619c228b83c48938d51335d710381ba",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T22:08:22",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (19).xls",
+      "semantic_sha256": "e681efde5c88ace500b33976a843e0e75ef6e4850e33973b238dfdc94a169139",
+      "roster_sha256": "cf4bf6f5aac6c996f563eadceb3ded1b886018eed195d1185931a43c7fe3b544",
+      "roster": [
+        "一起玩耍队",
+        "华尔街之狼",
+        "大小姐说的队",
+        "对对队",
+        "延河路大鳄",
+        "弈策知行队",
+        "毫无头绪队",
+        "法海队",
+        "潞城四小虫",
+        "蹦沙卡拉卡蹦蹦蹦"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-cf4bf6f5aac6-e681efde.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (2).xls",
+      "sha256": "3d0ddc92364a8c8f4512b9218303e16b66db1fdc09e378ce096ce9358ffa237b",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T22:06:40",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (2).xls",
+      "semantic_sha256": "6843d96ea24fc8ad43b49997bc6c4fb7239263e866539e96d786fe3ffb3b6594",
+      "roster_sha256": "08baa103076750005e8cc731b333879b3d534d479113d92dc75237142ff32f47",
+      "roster": [
+        "Bizlost",
+        "FinQuatre",
+        "乐乐闪击战",
+        "商海摸鱼队",
+        "巴巴博弈",
+        "知行小组",
+        "财富自由预备队",
+        "重仓猛干",
+        "钞能力战队",
+        "长风队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-08baa1030767-6843d96e.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (20).xls",
+      "sha256": "08fadd095d2021d7c4c7bb37da3bfc97746ff5c2994f90663970e2b6142ef8f2",
+      "bytes": 106496,
+      "original_mtime": "2026-10-17T22:08:24",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (20).xls",
+      "semantic_sha256": "adc02b23d983a1fd37a0c2ccf494617fd34e9b0350a5f21f8f085a39a78ea365",
+      "roster_sha256": "1529e6eb08dac94a6d8824ef086912cc7ab5032717dbd8e0ab8b0cce70d863ee",
+      "roster": [
+        "Name Editing",
+        "人民当家做组",
+        "决策做的都队",
+        "华尔街巨饿",
+        "商海弄潮儿",
+        "天弈无缝",
+        "机不可失",
+        "苏州街之狼",
+        "融法丽舍"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          55
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-1529e6eb08da-adc02b23.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (21).xls",
+      "sha256": "ce5c1118b406de1378ec000588ad1f4d390c5040818345049fa11055de8dca02",
+      "bytes": 107008,
+      "original_mtime": "2026-10-17T22:08:36",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (21).xls",
+      "semantic_sha256": "6fbb753f2f43c8ba45149e825c91725d464023c066ab4bd5dc4dd8d560ac1175",
+      "roster_sha256": "a7c91ecacc99508b085b1a72ab86ad2f391e97ede1ad8577b4249c64c332460d",
+      "roster": [
+        "人财队",
+        "商海gogo",
+        "商海四剑客",
+        "商海小鳄",
+        "商海请别伤害",
+        "有求必应",
+        "棋盘之外",
+        "甲方闭嘴",
+        "郭秋语说得都队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          55
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-a7c91ecacc99-6fbb753f.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (22).xls",
+      "sha256": "e6b799e743d67fc53ad35336d4c647110acacb1c068376346e42f632151ffc10",
+      "bytes": 107520,
+      "original_mtime": "2026-10-17T22:08:58",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (22).xls",
+      "semantic_sha256": "2762c7c7e815883b3100e5a68dc6c948152b19dc1242ec10b5cc307ce2976f4b",
+      "roster_sha256": "4af3f8723af9c12754095694149b2dbafc0878b2a03cb5de5f63f63773d31890",
+      "roster": [
+        "BizACE",
+        "下一个纳斯达克",
+        "商海之鱼",
+        "圣杯联盟",
+        "幸好报上名队",
+        "弈鸣惊人队",
+        "我说的都队",
+        "老鼠洗完头",
+        "蛋仔派队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          55
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-4af3f8723af9-2762c7c7.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (3).xls",
+      "sha256": "7c32e189c43f952d11bb2b21bc573e204aca87c348eef10e149b889e7e3de76c",
+      "bytes": 116224,
+      "original_mtime": "2026-10-17T22:06:46",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (3).xls",
+      "semantic_sha256": "f4b818c65e99cf6074f64cc2328f4efd69fbf5d1cba5807102fd4c3758739d7c",
+      "roster_sha256": "fdeaa07d886784fc297f70a128d1c9ac54a61cdfeddfe22d0f70423a7cb36231",
+      "roster": [
+        "Deepsick",
+        "不赚钱不改名",
+        "东南西北",
+        "乱拳被老师傅打死",
+        "商海小纵队",
+        "奕花奕叶奕菩提",
+        "密室逃脱四人组",
+        "最爱下快攻队",
+        "钱会消失对不队",
+        "铲铲生金"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-fdeaa07d8867-f4b818c6.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (4).xls",
+      "sha256": "bbe15484ccd71c4df72c506c5b20f8c1c7a2352eeebf48a80484be77f313f777",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T22:06:52",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (4).xls",
+      "semantic_sha256": "e553a2dee049c57144a4d9173ed8d3538c42179eb052669b6ffdaab16ae159f2",
+      "roster_sha256": "bf66b99868a812efb9ea71f6422668e82ff666205fd5e75d33687fa8aeb86b4d",
+      "roster": [
+        "AuroJade",
+        "乐邦队",
+        "先手必胜队",
+        "四维空间",
+        "小目标",
+        "楚耀钦扬",
+        "涨停板后援会",
+        "笑思咛宁",
+        "计经四座",
+        "远见四代少年团"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-bf66b99868a8-e553a2de.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (5).xls",
+      "sha256": "4423d9f9d3fcfb6a3d4bf6ad5248cc2588f3bbbd276a6d4e713bfe6eef78b72c",
+      "bytes": 119296,
+      "original_mtime": "2026-10-17T22:07:00",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (5).xls",
+      "semantic_sha256": "1c9bdc8d721055d1471991e7883d6742d3753d0a484b0429a368f9f5121338d6",
+      "roster_sha256": "5a0a71c4bcd26975f147420bd36b60f04b278e3b104319861be844ac1a276e53",
+      "roster": [
+        "商在赛身上",
+        "四人行策队",
+        "四维象限",
+        "我的痛苦在你之商",
+        "是金子总会花光队",
+        "海上鹿车夫",
+        "海底汪汪队",
+        "紫阳东路队",
+        "胡闹商海",
+        "通州四小凤"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-5a0a71c4bcd2-1c9bdc8d.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (6).xls",
+      "sha256": "06f48f1be30aeb931c5769816e246ea3196de812b2af5ef6a1d4e8128be310a6",
+      "bytes": 117760,
+      "original_mtime": "2026-10-17T22:07:06",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (6).xls",
+      "semantic_sha256": "5eea15776727f6e81dbdb286e7a9484dc8bd84c6cd346b5fb42d8c9c4702d31f",
+      "roster_sha256": "27ac2e3995ace9a69bffee562ff1e8633a78cb4d8ca0b80fb36dc0367fe2df7e",
+      "roster": [
+        "Cosmic Production",
+        "GSWL",
+        "Syxzen",
+        "WBG",
+        "noidea",
+        "不破产姐妹",
+        "厨神蒸霸",
+        "大运河之狼",
+        "弈衡队",
+        "转移资产队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-27ac2e3995ac-5eea1577.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (7).xls",
+      "sha256": "25b3cd8a17c57af93bf471a77b58e58c59f19294981c93bcfe34088a93b20dbc",
+      "bytes": 115712,
+      "original_mtime": "2026-10-17T22:07:08",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (7).xls",
+      "semantic_sha256": "cc0dcbee2cd9cbb88236d555731932c8e716e792bef93b0661825a4935e7b2f0",
+      "roster_sha256": "b38579a77940f737b928c15e408bcd2f8a506008098ea790a371f42c62387996",
+      "roster": [
+        "CEO练习生",
+        "TriFinAI",
+        "不和人民作队",
+        "主人说的都",
+        "四隅拾思队",
+        "天时地利",
+        "影子董事会",
+        "海底小总队",
+        "知弈行远",
+        "衡弈队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-b38579a77940-cc0dcbee.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (8).xls",
+      "sha256": "260d4b04edba36122a9d7d1d8afd78e5a89efcc266c301871aa0e5a4cc00e6ac",
+      "bytes": 116224,
+      "original_mtime": "2026-10-17T22:07:26",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (8).xls",
+      "semantic_sha256": "bedd8843edea7b112a88c61f3f2415dd97b7ee40855345d2488267bcdbd820ea",
+      "roster_sha256": "2d1eeaf8a0957cf86324a8f7d791c6da27db1be1f8e1851a4bd749bf20a171e7",
+      "roster": [
+        "CMRW",
+        "Pecunia",
+        "X",
+        "元老院商弈团",
+        "刘强东家亲戚队",
+        "商海摸鱼队",
+        "官商不勾结队",
+        "弈本万利队",
+        "很有食力队",
+        "运河东之狼"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-2d1eeaf8a095-bedd8843.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01 (9).xls",
+      "sha256": "cd8d5b0e785603b069a9a195ce4d37ba3379be1345e8afa067b6a1f1c1060549",
+      "bytes": 116224,
+      "original_mtime": "2026-10-17T22:07:28",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01 (9).xls",
+      "semantic_sha256": "bd926f00bbe81e9611f09cfe6955dbc05d861e5d367c790730d9f504569972bb",
+      "roster_sha256": "470e1ef662db9f9bb466fcb3429704d4540d07a00343cceba46d81405adc9d24",
+      "roster": [
+        "CAC",
+        "弈手遮天",
+        "弈脸茫然",
+        "旺财队",
+        "欧坤队",
+        "沃顿有危险了",
+        "疯狂星期四",
+        "疯狂星期四队",
+        "赛诺瓦",
+        "超级无敌大战舰"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-470e1ef662db-bd926f00.xls"
+    },
+    {
+      "original_path": "manual\\1-3\\3\\results-r01.xls",
+      "sha256": "ce1eccc9127b19dc0313417e43fdd2fffc64bba274a5e81bc23d3876ea45cbef",
+      "bytes": 116224,
+      "original_mtime": "2026-10-17T22:06:32",
+      "archive_path": "archive\\manual-imports\\20261017T221830\\1-3\\3\\results-r01.xls",
+      "semantic_sha256": "5a958df68791a842773b13f4c52f69104bcd6eaee74986219c7cf856192bd8e0",
+      "roster_sha256": "52d99fa4741795154cc34c3f903c433d20e62b8eaa9ff7f7c65f212b7a5a9ac8",
+      "roster": [
+        "Daring Traders",
+        "letmedoitforu",
+        "下定决心向钱冲",
+        "不知道什么队",
+        "九一居士",
+        "加勒比商海盗",
+        "新世紀情歌戰士",
+        "注定不会亡",
+        "赛博DDL",
+        "雷霆爆仓队"
+      ],
+      "title": "市场调研报告, 回合 1",
+      "sheet_shapes": [
+        [
+          "Results",
+          290,
+          61
+        ]
+      ],
+      "kind": "formal/round-01",
+      "classification_basis": "export_filename_and_workbook_content; folder_numbers_not_used; reference_initial_not_assigned_to_our_team",
+      "deduplication": "new_content",
+      "canonical_path": "data\\raw\\formal\\round-01\\cohort-52d99fa47417-5a958df6.xls"
+    }
+  ],
+  "zip_details": [
+    {
+      "original_path": "manual\\1-3\\2\\数据.zip",
+      "member_count": 23,
+      "unrepresented": []
+    }
+  ],
+  "policy": "Original bytes preserved in archive; canonical raw never overwritten; duplicate links recorded."
+}

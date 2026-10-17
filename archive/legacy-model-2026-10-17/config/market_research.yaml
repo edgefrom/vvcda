@@ -1,0 +1,127 @@
+# ============================================================
+# 市场调研报告的结构化转写（先验来源）—— 已从 data/raw/市场调研报告.pdf 提取
+# 数据来源：平台市场调研报告（9 页，图片型 PDF，2026/10/12 下载）
+# 重要：以下数值为「图表人工转写的近似值」，方向可靠、精确值需回合数据校准。
+# 字段含义见 docs/technical/data-contracts.md 与 docs/guides/market-research-extracted.md
+# ============================================================
+
+segments:
+  # ---------- 欧洲 · 普通消费者 ----------
+  - market: EU
+    segment: consumer
+    price_sensitivity: 3.0        # 家庭用户对价格较敏感（相对值 0-4，近似）
+    performance_sensitivity: 1.0  # 性能敏感度较低（净推荐值斜率较平）
+    battery_sensitivity: 1.0      # 家庭用户对电池寿命不那么重要
+    style_preference: { 经典: 0.4, 前卫: 0.8, 运动: 1.6 }   # 运动型最受欢迎，近似
+    warranty_sensitivity: 1.0
+    feature_importance: {}        # 待人工读图（page 6）
+    ad_effectiveness: 1.25        # 广告预算+10% → 销量拉动 1.25%（两市场相同）
+    channel_reach: { 品牌专卖店: 15, 家电卖场: 50, 百货商场: 35 }  # 近似
+    size: 1.0
+    growth: 0.0
+    notes: "家庭低端用户，价格敏感；广告在家庭用户市场作用大于企业市场"
+
+  # ---------- 欧洲 · 高端消费者 ----------
+  - market: EU
+    segment: premium
+    price_sensitivity: 2.0
+    performance_sensitivity: 3.0  # 高端消费者性能敏感（黄色线陡）
+    battery_sensitivity: 1.0
+    style_preference: { 经典: 0.6, 前卫: 1.2, 运动: 1.8 }   # 运动最高、前卫也较高
+    warranty_sensitivity: 1.5
+    feature_importance: {}
+    ad_effectiveness: 1.4
+    channel_reach: { 品牌专卖店: 30, 家电卖场: 25, 百货商场: 45 }  # 近似
+    size: 1.0
+    growth: 0.0
+    notes: "高端家庭用户，性能/款式敏感；前卫款式在此细分较受欢迎"
+
+  # ---------- 欧洲 · 企业用户 ----------
+  - market: EU
+    segment: business
+    price_sensitivity: 1.5
+    performance_sensitivity: 2.0
+    battery_sensitivity: 3.0  # 企业用户电池寿命敏感（绿线较陡）
+    style_preference: { 经典: 1.0, 前卫: 0.8, 运动: 1.2 }
+    warranty_sensitivity: 2.0
+    feature_importance: {}
+    ad_effectiveness: 0.6
+    channel_reach: { 品牌专卖店: 70, 家电卖场: 20, 百货商场: 10 }  # 企业用户偏爱专卖店
+    size: 1.0
+    growth: 0.0
+    notes: "低端企业用户，偏爱品牌专卖店；广告作用弱于家庭用户"
+
+  # ---------- 欧洲 · 高端企业用户 ----------
+  - market: EU
+    segment: premium_business
+    price_sensitivity: 1.0   # 高端企业用户价格影响小
+    performance_sensitivity: 3.0
+    battery_sensitivity: 4.0  # 高端企业用户电池寿命最敏感（蓝线最陡）
+    style_preference: { 经典: 1.0, 前卫: 1.0, 运动: 1.2 }
+    warranty_sensitivity: 2.5
+    feature_importance: {}
+    ad_effectiveness: 0.8
+    channel_reach: { 品牌专卖店: 80, 家电卖场: 12, 百货商场: 8 }  # 近似
+    size: 1.0
+    growth: 0.0
+    notes: "高端企业用户，最看重电池寿命/性能，价格影响不大，高度偏爱专卖店"
+
+  # ---------- 亚洲 · 普通消费者 ----------
+  - market: ASIA
+    segment: consumer
+    price_sensitivity: 4.0   # 亚洲家庭用户价格最敏感（案例背景明确）
+    performance_sensitivity: 1.0
+    battery_sensitivity: 1.0
+    style_preference: { 经典: 1.6, 前卫: 0.8, 运动: 1.2 }   # 亚洲低端偏经典（待校准）
+    warranty_sensitivity: 1.0
+    feature_importance: {}
+    ad_effectiveness: 1.25
+    channel_reach: { 品牌专卖店: 15, 家电卖场: 50, 百货商场: 35 }  # 与欧洲相似，待校准
+    size: 1.0
+    growth: 0.0
+    notes: "亚洲家庭用户价格比欧洲更敏感；轻薄度要求亚洲更强"
+
+  # ---------- 亚洲 · 高端消费者 ----------
+  - market: ASIA
+    segment: premium
+    price_sensitivity: 2.5
+    performance_sensitivity: 3.0
+    battery_sensitivity: 1.0
+    style_preference: { 经典: 0.6, 前卫: 1.4, 运动: 1.6 }
+    warranty_sensitivity: 1.5
+    feature_importance: {}
+    ad_effectiveness: 1.4
+    channel_reach: { 品牌专卖店: 30, 家电卖场: 25, 百货商场: 45 }
+    size: 1.0
+    growth: 0.0
+    notes: "亚洲高端用户前卫/运动款式较受欢迎；轻薄度要求高"
+
+  # ---------- 亚洲 · 企业用户 ----------
+  - market: ASIA
+    segment: business
+    price_sensitivity: 1.5
+    performance_sensitivity: 2.0
+    battery_sensitivity: 3.0
+    style_preference: { 经典: 1.2, 前卫: 0.8, 运动: 1.0 }
+    warranty_sensitivity: 2.0
+    feature_importance: {}
+    ad_effectiveness: 0.6
+    channel_reach: { 品牌专卖店: 70, 家电卖场: 20, 百货商场: 10 }
+    size: 1.0
+    growth: 0.0
+    notes: "亚洲企业用户偏爱专卖店"
+
+  # ---------- 亚洲 · 高端企业用户 ----------
+  - market: ASIA
+    segment: premium_business
+    price_sensitivity: 0.5   # 高端企业用户（尤其亚洲）价格影响很小
+    performance_sensitivity: 3.0
+    battery_sensitivity: 4.0
+    style_preference: { 经典: 1.0, 前卫: 1.0, 运动: 1.2 }
+    warranty_sensitivity: 2.5
+    feature_importance: {}
+    ad_effectiveness: 0.8
+    channel_reach: { 品牌专卖店: 80, 家电卖场: 12, 百货商场: 8 }
+    size: 1.0
+    growth: 0.0
+    notes: "亚洲高端企业用户价格影响最小；轻薄度/电池寿命要求最高"

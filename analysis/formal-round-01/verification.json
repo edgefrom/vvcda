@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-17T22:38:39.060728",
+  "archived_originals_hash_verified": 72,
+  "canonical_byte_matches": 69,
+  "canonical_semantic_matches_different_container_bytes": 2,
+  "frozen_recommendations_unchanged": 6,
+  "analysis_source_hashes_verified": 46,
+  "our_cohort_reconciles": true,
+  "financial_internal_equations_all_pass": true,
+  "cross_table_warnings_preserved": 7,
+  "net_bridge_residual": 1.8189894035458565e-12,
+  "local_document_links_checked": 23,
+  "figure_visually_reviewed": true,
+  "manual_only_readme": true,
+  "scope": "Verification of provenance, arithmetic, document links and retained warnings; not a validation of a causal demand model."
+}

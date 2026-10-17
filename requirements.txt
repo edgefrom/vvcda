@@ -1,6 +1,4 @@
-numpy
-pandas
-scipy
-pydantic>=2
-PyYAML
-pytest
+# 当前独立审计工具。旧模型依赖见archive，不默认启用。
+xlrd>=2.0.1,<3
+openpyxl>=3.1,<4
+matplotlib>=3.8,<4

@@ -1,0 +1,15 @@
+﻿slot,actual_name,field,recommended,actual,same,source
+1,欧洲测试,style,运动,运动,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+1,欧洲测试,performance,80,80.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+1,欧洲测试,battery,89,89.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+1,欧洲测试,features,"{'camera': False, 'storage': False, 'screen': False, 'navigation': True, 'security': True}","{'camera': False, 'storage': False, 'screen': False, 'navigation': True, 'security': True}",True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+1,欧洲测试,price,469,469.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+1,欧洲测试,ads,1000,1000.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+1,欧洲测试,channels,1000,1000.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+2,欧洲主要,style,运动,经典,False,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+2,欧洲主要,performance,80,80.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+2,欧洲主要,battery,60,60.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+2,欧洲主要,features,"{'camera': True, 'storage': True, 'screen': False, 'navigation': False, 'security': False}","{'camera': True, 'storage': True, 'screen': False, 'navigation': False, 'security': False}",True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+2,欧洲主要,price,399,399.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+2,欧洲主要,ads,900,900.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls
+2,欧洲主要,channels,900,900.0,True,data\raw\formal\round-01\cohort-4d75bca778b9-08e2a398.xls

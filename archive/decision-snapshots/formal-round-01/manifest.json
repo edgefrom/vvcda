@@ -1,0 +1,35 @@
+{
+  "scope": "Frozen pre-result recommendations and scenario assumptions; contains superseded cash assumptions. Do not use as next-round inputs.",
+  "files": [
+    {
+      "source": "current/final-round1-plan.md",
+      "snapshot": "archive\\decision-snapshots\\formal-round-01\\current\\final-round1-plan.md",
+      "sha256": "53501d14c9045859016626c6f7d19d42fa8b581e760792350f5e247ef4b9a749"
+    },
+    {
+      "source": "current/round1-entry-checklist.md",
+      "snapshot": "archive\\decision-snapshots\\formal-round-01\\current\\round1-entry-checklist.md",
+      "sha256": "ff12548682e91a7eccea8f0dee217f5a8d34ab568883f5299f959338b1696048"
+    },
+    {
+      "source": "analysis/round1_plan.json",
+      "snapshot": "archive\\decision-snapshots\\formal-round-01\\analysis\\round1_plan.json",
+      "sha256": "06b591a57e87e5886410dc8cd80dfe632e49294f15b0533807ce4a96304eb2bf"
+    },
+    {
+      "source": "analysis/round1-scenario-results.json",
+      "snapshot": "archive\\decision-snapshots\\formal-round-01\\analysis\\round1-scenario-results.json",
+      "sha256": "12f5c48038bc6f9cc67fb887220ee51b0e33ed42f80012fefad516b9d2a6d6b7"
+    },
+    {
+      "source": "analysis/calculate_round1_scenarios.py",
+      "snapshot": "archive\\decision-snapshots\\formal-round-01\\analysis\\calculate_round1_scenarios.py",
+      "sha256": "e627b71f46789853649e9eb58b48a7cac414ea96555d262fd44978df2fc78468"
+    },
+    {
+      "source": "analysis/final-validation.json",
+      "snapshot": "archive\\decision-snapshots\\formal-round-01\\analysis\\final-validation.json",
+      "sha256": "16460afc2590a4045139f9bb814fabcbc4fa80610d0185c959800d6022311a17"
+    }
+  ]
+}

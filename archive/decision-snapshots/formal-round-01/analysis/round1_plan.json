@@ -1,0 +1,39 @@
+{
+  "version": "R1-20261017-v1",
+  "status": "recommended_not_entered",
+  "units": {"quantity":"thousand units","money":"thousand EUR","price_and_unit_cost":"EUR"},
+  "assumptions": {
+    "reset": "financial_and_technology_reset_supported_full_state_reset_unconfirmed",
+    "opening_net_assets": 80000,
+    "tax_rate": 0.29,
+    "accounts_payable_rate": 0.10,
+    "ar_day_basis": 360,
+    "payment_days": 60,
+    "interest": 0,
+    "europe_market_approx": [145,345,95,460],
+    "market_values_are_approximate": true,
+    "quantities_are_judgment_scenarios_not_fitted_predictions": true
+  },
+  "products": [
+    {"slot":1,"name":"欧洲1","role":"business","markets":["EU"],"style":"运动","performance":80,"battery":89,
+      "features":{"camera":false,"storage":false,"screen":false,"navigation":true,"security":true},
+      "price":469,"quantity":[2,14,5,44],"ads":[50,200,150,600],"channels":[800,100,100],
+      "unit_cost_assumed":264.95,"unit_cost_source":"screenshot_02_06_existing_design_quote","warranty_per_unit_assumed":3.78,
+      "cost_plus_warranty_acceptance_max":280},
+    {"slot":2,"name":"欧洲2","role":"consumer","markets":["EU"],"style":"运动","performance":80,"battery":60,
+      "features":{"camera":true,"storage":true,"screen":false,"navigation":false,"security":false},
+      "price":399,"quantity":[8,36,3,13],"ads":[150,650,50,50],"channels":[250,200,450],
+      "unit_cost_assumed":230,"unit_cost_source":"planning_allowance_not_platform_quote","warranty_per_unit_assumed":4,
+      "unit_cost_acceptance_max":240,"warranty_acceptance_max":5}
+  ],
+  "inactive_slots":[3,4,5,6],
+  "global": {"rd_performance":2500,"rd_battery":1500,"extra_warranty_months":6,"repair_quality":26,
+    "repair_markup_pct":{"EU":30,"AS":30},"repair_quantity":{"EU":35,"AS":0},
+    "repair_unit_cost_assumed":{"EU":35,"AS":25},
+    "buy_market_report":{"EU":true,"AS":true},"market_report_cost":{"EU":600,"AS":600}},
+  "costs": {"entity_EU":1000,"entity_AS":0,"per_product_EU":3000,"per_product_AS":1000,"line_per_design":2200},
+  "quantity_scenarios": {"severe":[35,30],"downside":[45,40],"base":[65,60],"upside":[90,85]},
+  "variable_cost_uplifts":[0,0.05,0.10],
+  "fallback_consumer": {"performance":80,"battery":50,"price":389,"quantity":[8,33,3,11],"unit_cost_max":230,"warranty_max":5},
+  "fallback_single": {"slot":1,"price":449,"quantity":[3,20,7,50],"disable_slot2":true,"other_globals_unchanged":true}
+}

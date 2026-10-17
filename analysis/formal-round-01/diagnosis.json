@@ -1,0 +1,1194 @@
+{
+  "our_result": {
+    "source": "data\\raw\\formal\\round-01\\cohort-4d75bca778b9-08e2a398.xls",
+    "phase": "formal-01",
+    "cohort": "4d75bca778b964c7307d0a1747ba91a95928b95d42b978b63bde9057125190e9",
+    "team": "维维一笑队",
+    "financial_column_1based": 5,
+    "finance": {
+      "product_revenue": 33360.29021553433,
+      "service_revenue": 2511.5590050765923,
+      "revenue": 35871.84922061092,
+      "product_cost": 19117.274835395405,
+      "service_cost": 1931.9684654435323,
+      "variable_cost": 21049.243300838938,
+      "gross_profit": 14822.605919771984,
+      "admin": 7000.0,
+      "line": 4400.0,
+      "ads": 1900.0,
+      "channels": 1900.0,
+      "warranty": 277.3844287238743,
+      "repair_quality": 26.0,
+      "rd": 4000.0,
+      "reports": 1200.0,
+      "fixed": 20703.384428723875,
+      "ebit": -5880.778508951891,
+      "interest_income": 756.1351789212661,
+      "interest_expense": 0.0,
+      "pretax": -5124.643330030625,
+      "tax": 0.0,
+      "net": -5124.643330030625,
+      "ar": 5560.048369255722,
+      "cash": 71227.0357842532,
+      "assets": 76787.08415350891,
+      "capital": 80000.0,
+      "retained": 0.0,
+      "current_profit": -5124.643330030625,
+      "equity": 74875.35666996938,
+      "debt": 0.0,
+      "ap": 1911.7274835395406,
+      "liabilities": 1911.7274835395406,
+      "liabilities_equity": 76787.08415350891,
+      "gross_margin_pct": 41.32099750033334,
+      "return_on_sales_pct": -16.39385377872565,
+      "net_margin_pct": -14.28597477234643,
+      "forecast_error_pct": 74.41441994334383,
+      "stock": 4.318709289212659,
+      "cumulative_profit": -5124.643330030625,
+      "next_performance": 116.2190121971313,
+      "next_battery": 112.71756856172698,
+      "performance_technology": 100.0,
+      "battery_technology": 100.0,
+      "platform_forecast_net": 2811.735746176121
+    },
+    "products": [
+      {
+        "market": "EU",
+        "slot": 1,
+        "name": "欧洲测试",
+        "source_column_1based": 20,
+        "price": 469.0,
+        "quantity": [
+          2.316027361879592,
+          11.725064707256408,
+          4.584452414701694,
+          33.38075111704088
+        ],
+        "total_quantity": 52.00629560087857,
+        "channel_sales": [
+          35.012515679301764,
+          8.591945238712922,
+          8.401834682863889
+        ],
+        "segment_share_pct": [
+          1.935516092184124,
+          3.744188688392463,
+          4.945260691512227,
+          8.872321229169708
+        ],
+        "ads": 1000.0,
+        "channels": 1000.0,
+        "performance": 80.0,
+        "battery": 89.0,
+        "features": {
+          "camera": false,
+          "storage": false,
+          "screen": false,
+          "navigation": true,
+          "security": true
+        },
+        "style": "运动",
+        "unit_cost": 270.04976662214875,
+        "awareness": [
+          11.535841653498052,
+          58.19274712259404,
+          23.37488643293034,
+          177.91496931917996
+        ],
+        "intent": [
+          2.690192688140302,
+          13.299622697888813,
+          4.930786149373255,
+          35.418948650939335
+        ],
+        "funnel_sales": [
+          2.316027361879592,
+          11.725064707256408,
+          4.584452414701694,
+          33.38075111704088
+        ]
+      },
+      {
+        "market": "EU",
+        "slot": 2,
+        "name": "欧洲主要",
+        "source_column_1based": 21,
+        "price": 399.0,
+        "quantity": [
+          3.2163494681432887,
+          10.073981755369465,
+          2.4520776133265336,
+          6.7371339669759465
+        ],
+        "total_quantity": 22.479542803815235,
+        "channel_sales": [
+          10.305840895632686,
+          5.481030298063363,
+          6.6926716101191825
+        ],
+        "segment_share_pct": [
+          2.687919951268188,
+          3.2169450213936077,
+          2.6450624713289477,
+          1.7906732089214845
+        ],
+        "ads": 900.0,
+        "channels": 900.0,
+        "performance": 80.0,
+        "battery": 60.0,
+        "features": {
+          "camera": true,
+          "storage": true,
+          "screen": false,
+          "navigation": false,
+          "security": false
+        },
+        "style": "经典",
+        "unit_cost": 225.67126430323464,
+        "awareness": [
+          16.36137154120812,
+          57.26289905605329,
+          12.198745758164142,
+          30.84007263440502
+        ],
+        "intent": [
+          3.5602110997465877,
+          11.160774512799692,
+          2.822995545471276,
+          7.805925802869318
+        ],
+        "funnel_sales": [
+          3.2163494681432887,
+          10.073981755369465,
+          2.4520776133265336,
+          6.7371339669759465
+        ]
+      }
+    ],
+    "services": {
+      "EU": {
+        "markup_pct": 30.0,
+        "quantity": 55.19909901267235,
+        "revenue": 2511.5590050765923,
+        "cost": 1931.9684654435323,
+        "gross": 579.59053963306
+      },
+      "AS": {
+        "markup_pct": 30.0,
+        "quantity": 0.0,
+        "revenue": 0.0,
+        "cost": 0.0,
+        "gross": 0.0
+      }
+    },
+    "reconciliation_errors": [],
+    "stock_rank": 4,
+    "net_rank": 2
+  },
+  "our_market": {
+    "EU": {
+      "quantity": 901.7517607407594,
+      "segments": [
+        119.65942165151837,
+        313.1536811594415,
+        92.70395840951713,
+        376.23469952028245
+      ],
+      "active_companies": 9,
+      "active_product_listings": 18
+    },
+    "AS": {
+      "quantity": 94.31954906976004,
+      "segments": [
+        6.884955236102134,
+        34.94453442807445,
+        6.655480656628,
+        45.83457874895546
+      ],
+      "active_companies": 6,
+      "active_product_listings": 9
+    }
+  },
+  "proposal_comparison": [
+    {
+      "slot": 1,
+      "actual_name": "欧洲测试",
+      "checks": {
+        "style": {
+          "recommended": "运动",
+          "actual": "运动",
+          "same": true
+        },
+        "performance": {
+          "recommended": 80,
+          "actual": 80.0,
+          "same": true
+        },
+        "battery": {
+          "recommended": 89,
+          "actual": 89.0,
+          "same": true
+        },
+        "features": {
+          "recommended": {
+            "camera": false,
+            "storage": false,
+            "screen": false,
+            "navigation": true,
+            "security": true
+          },
+          "actual": {
+            "camera": false,
+            "storage": false,
+            "screen": false,
+            "navigation": true,
+            "security": true
+          },
+          "same": true
+        },
+        "price": {
+          "recommended": 469,
+          "actual": 469.0,
+          "same": true
+        },
+        "ads": {
+          "recommended": 1000,
+          "actual": 1000.0,
+          "same": true
+        },
+        "channels": {
+          "recommended": 1000,
+          "actual": 1000.0,
+          "same": true
+        }
+      },
+      "recommended_forecast": [
+        2,
+        14,
+        5,
+        44
+      ],
+      "actual_sales": [
+        2.316027361879592,
+        11.725064707256408,
+        4.584452414701694,
+        33.38075111704088
+      ],
+      "forecast_total": 65,
+      "actual_total": 52.00629560087857,
+      "achievement_pct": 80.00968553981319,
+      "volume_profit_effect": -2602.2491800120483,
+      "unit_cost_profit_effect": -265.21997044696263,
+      "actual_gross_before_warranty": 10346.664646912312
+    },
+    {
+      "slot": 2,
+      "actual_name": "欧洲主要",
+      "checks": {
+        "style": {
+          "recommended": "运动",
+          "actual": "经典",
+          "same": false
+        },
+        "performance": {
+          "recommended": 80,
+          "actual": 80.0,
+          "same": true
+        },
+        "battery": {
+          "recommended": 60,
+          "actual": 60.0,
+          "same": true
+        },
+        "features": {
+          "recommended": {
+            "camera": true,
+            "storage": true,
+            "screen": false,
+            "navigation": false,
+            "security": false
+          },
+          "actual": {
+            "camera": true,
+            "storage": true,
+            "screen": false,
+            "navigation": false,
+            "security": false
+          },
+          "same": true
+        },
+        "price": {
+          "recommended": 399,
+          "actual": 399.0,
+          "same": true
+        },
+        "ads": {
+          "recommended": 900,
+          "actual": 900.0,
+          "same": true
+        },
+        "channels": {
+          "recommended": 900,
+          "actual": 900.0,
+          "same": true
+        }
+      },
+      "recommended_forecast": [
+        8,
+        36,
+        3,
+        13
+      ],
+      "actual_sales": [
+        3.2163494681432887,
+        10.073981755369465,
+        2.4520776133265336,
+        6.7371339669759465
+      ],
+      "forecast_total": 60,
+      "actual_total": 22.479542803815235,
+      "achievement_pct": 37.46590467302539,
+      "volume_profit_effect": -6190.875437370486,
+      "unit_cost_profit_effect": 97.30799938183996,
+      "actual_gross_before_warranty": 3896.350733226615
+    }
+  ],
+  "net_bridge": [
+    {
+      "item": "建议基准净利润",
+      "amount": 2029.9255
+    },
+    {
+      "item": "欧洲1销量未达建议预测",
+      "amount": -2602.2491800120483
+    },
+    {
+      "item": "欧洲2销量未达建议预测",
+      "amount": -6190.875437370486
+    },
+    {
+      "item": "实际单位产品成本与假设差异",
+      "amount": -167.91197106512266
+    },
+    {
+      "item": "质保单位假设残差",
+      "amount": 9.117539862707645
+    },
+    {
+      "item": "固定费用差异（不含质保）",
+      "amount": 0.0
+    },
+    {
+      "item": "维修毛利高于假设",
+      "amount": 212.09053963305996
+    },
+    {
+      "item": "实际净利息收入",
+      "amount": 756.1351789212661
+    },
+    {
+      "item": "未发生基准假设所得税",
+      "amount": 829.1245
+    }
+  ],
+  "bridge_residual": 1.8189894035458565e-12,
+  "market_vs_share_decomposition": {
+    "forecast_market_approx": [
+      145,
+      345,
+      95,
+      460
+    ],
+    "actual_realized_market": [
+      119.65942165151837,
+      313.1536811594415,
+      92.70395840951713,
+      376.23469952028245
+    ],
+    "recommended_quantities": [
+      10,
+      50,
+      8,
+      57
+    ],
+    "actual_quantities": [
+      5.532376830022881,
+      21.799046462625874,
+      7.036530028028228,
+      40.11788508401683
+    ],
+    "market_arithmetic_effect": [
+      -1.747626092998733,
+      -4.615408527617176,
+      -0.1933508707775049,
+      -10.379613320312826
+    ],
+    "residual_share_arithmetic_effect": [
+      -2.719997076978386,
+      -23.58554500975695,
+      -0.7701191011942674,
+      -6.502501595670347
+    ],
+    "warning": "Arithmetic using approximate outlook, not exogenous causal attribution."
+  },
+  "funnel": [
+    {
+      "slot": 1,
+      "segment": "普通消费者",
+      "awareness": 11.535841653498052,
+      "intent": 2.690192688140302,
+      "sales": 2.316027361879592,
+      "awareness_to_intent_pct": 23.32029832712333,
+      "intent_to_sales_pct": 86.09150460075907
+    },
+    {
+      "slot": 1,
+      "segment": "高端消费者",
+      "awareness": 58.19274712259404,
+      "intent": 13.299622697888813,
+      "sales": 11.725064707256408,
+      "awareness_to_intent_pct": 22.85443350847596,
+      "intent_to_sales_pct": 88.1608822565895
+    },
+    {
+      "slot": 1,
+      "segment": "企业用户",
+      "awareness": 23.37488643293034,
+      "intent": 4.930786149373255,
+      "sales": 4.584452414701694,
+      "awareness_to_intent_pct": 21.094374783471917,
+      "intent_to_sales_pct": 92.97609500433146
+    },
+    {
+      "slot": 1,
+      "segment": "高端企业用户",
+      "awareness": 177.91496931917996,
+      "intent": 35.418948650939335,
+      "sales": 33.38075111704088,
+      "awareness_to_intent_pct": 19.907795722010125,
+      "intent_to_sales_pct": 94.2454600954272
+    },
+    {
+      "slot": 2,
+      "segment": "普通消费者",
+      "awareness": 16.36137154120812,
+      "intent": 3.5602110997465877,
+      "sales": 3.2163494681432887,
+      "awareness_to_intent_pct": 21.75985730034771,
+      "intent_to_sales_pct": 90.34153812879875
+    },
+    {
+      "slot": 2,
+      "segment": "高端消费者",
+      "awareness": 57.26289905605329,
+      "intent": 11.160774512799692,
+      "sales": 10.073981755369465,
+      "awareness_to_intent_pct": 19.490411237954742,
+      "intent_to_sales_pct": 90.26238944094925
+    },
+    {
+      "slot": 2,
+      "segment": "企业用户",
+      "awareness": 12.198745758164142,
+      "intent": 2.822995545471276,
+      "sales": 2.4520776133265336,
+      "awareness_to_intent_pct": 23.141686870405962,
+      "intent_to_sales_pct": 86.86083891489739
+    },
+    {
+      "slot": 2,
+      "segment": "高端企业用户",
+      "awareness": 30.84007263440502,
+      "intent": 7.805925802869318,
+      "sales": 6.7371339669759465,
+      "awareness_to_intent_pct": 25.3109838469092,
+      "intent_to_sales_pct": 86.30794267221316
+    }
+  ],
+  "peers": [
+    {
+      "team": "人民当家作组",
+      "stock_rank": 1,
+      "net_rank": 1,
+      "stock": 8.956373630998048,
+      "net": -4668.369534041675,
+      "revenue": 91896.64806287177,
+      "gross_profit": 32075.417611017932,
+      "fixed": 37489.083490293546,
+      "rd": 11000.0,
+      "next_performance": 122.42255166678322,
+      "next_battery": 122.6099719267174,
+      "EU_quantity": 213.26012853604493,
+      "AS_quantity": 0
+    },
+    {
+      "team": "jet two",
+      "stock_rank": 2,
+      "net_rank": 4,
+      "stock": 5.122206157283413,
+      "net": -6191.239627792287,
+      "revenue": 58846.88760105141,
+      "gross_profit": 21959.580601597463,
+      "fixed": 28898.518614481945,
+      "rd": 6000.0,
+      "next_performance": 117.59112718553473,
+      "next_battery": 117.76277826061309,
+      "EU_quantity": 126.52289177741277,
+      "AS_quantity": 11.77175144651833
+    },
+    {
+      "team": "扬帆队",
+      "stock_rank": 3,
+      "net_rank": 5,
+      "stock": 4.443872575376885,
+      "net": -7939.698492462311,
+      "revenue": 0.0,
+      "gross_profit": 0.0,
+      "fixed": 8700.0,
+      "rd": 7000.0,
+      "next_performance": 118.77987192649134,
+      "next_battery": 118.95540292055409,
+      "EU_quantity": 0,
+      "AS_quantity": 0
+    },
+    {
+      "team": "维维一笑队",
+      "stock_rank": 4,
+      "net_rank": 2,
+      "stock": 4.318709289212659,
+      "net": -5124.643330030625,
+      "revenue": 35871.84922061092,
+      "gross_profit": 14822.605919771984,
+      "fixed": 20703.384428723875,
+      "rd": 4000.0,
+      "next_performance": 116.2190121971313,
+      "next_battery": 112.71756856172698,
+      "EU_quantity": 74.48583840469381,
+      "AS_quantity": 0
+    },
+    {
+      "team": "观澜",
+      "stock_rank": 5,
+      "net_rank": 6,
+      "stock": 4.273953762915834,
+      "net": -10981.365482462044,
+      "revenue": 50665.73203371683,
+      "gross_profit": 22248.242322598064,
+      "fixed": 33955.37343135169,
+      "rd": 8000.0,
+      "next_performance": 119.8313067196732,
+      "next_battery": 120.01026946966672,
+      "EU_quantity": 91.73149352236307,
+      "AS_quantity": 11.940573322228015
+    },
+    {
+      "team": "苏州街之狼",
+      "stock_rank": 6,
+      "net_rank": 3,
+      "stock": 4.193390486367094,
+      "net": -5202.919283402298,
+      "revenue": 54246.946893579014,
+      "gross_profit": 22907.861899077503,
+      "fixed": 28864.38448111651,
+      "rd": 2000.0,
+      "next_performance": 109.8466386394338,
+      "next_battery": 109.99301264105867,
+      "EU_quantity": 118.5543139253811,
+      "AS_quantity": 9.58497122722688
+    },
+    {
+      "team": "四区战车",
+      "stock_rank": 7,
+      "net_rank": 8,
+      "stock": 4.111048755759787,
+      "net": -17050.71267567287,
+      "revenue": 24383.814285068453,
+      "gross_profit": 7060.776475018447,
+      "fixed": 24819.133276267294,
+      "rd": 10000.0,
+      "next_performance": 121.63443181915282,
+      "next_battery": 121.81927975127478,
+      "EU_quantity": 36.16876656921631,
+      "AS_quantity": 17.548716937779325
+    },
+    {
+      "team": "唐凌寰宇",
+      "stock_rank": 8,
+      "net_rank": 7,
+      "stock": 4.09454906751843,
+      "net": -15331.112241032475,
+      "revenue": 54230.29750273501,
+      "gross_profit": 19287.274415665124,
+      "fixed": 35323.55706344944,
+      "rd": 8000.0,
+      "next_performance": 119.8313067196732,
+      "next_battery": 120.01026946966672,
+      "EU_quantity": 92.51029532125318,
+      "AS_quantity": 23.44794971109809
+    },
+    {
+      "team": "跟党走就队",
+      "stock_rank": 9,
+      "net_rank": 10,
+      "stock": 3.7844249761471414,
+      "net": -23313.79078152528,
+      "revenue": 46954.36822233598,
+      "gross_profit": 17572.573477837745,
+      "fixed": 41553.02100697774,
+      "rd": 8200.0,
+      "next_performance": 119.8313067196732,
+      "next_battery": 120.40082355396461,
+      "EU_quantity": 99.21604110580307,
+      "AS_quantity": 20.0255864249094
+    },
+    {
+      "team": "观澜智弈队",
+      "stock_rank": 10,
+      "net_rank": 9,
+      "stock": 3.7024975807738585,
+      "net": -21867.207757257875,
+      "revenue": 19806.612010961402,
+      "gross_profit": 4114.034760159874,
+      "fixed": 26666.774775495134,
+      "rd": 7000.0,
+      "next_performance": 118.77987192649134,
+      "next_battery": 118.95540292055409,
+      "EU_quantity": 49.301991578591206,
+      "AS_quantity": 0
+    }
+  ],
+  "global_stats": {
+    "cohorts": 23,
+    "companies": 227,
+    "profitable": 10,
+    "median_net": -11510.391314533585,
+    "median_stock": 4.160283308139095,
+    "our_net_rank_pooled": 33,
+    "our_stock_rank_pooled": 81,
+    "note": "Pooled rank is descriptive only; competition and market structure differ by cohort."
+  },
+  "layout_stats": {
+    "both": {
+      "n": 153,
+      "profitable": 0,
+      "median_net": -14208.201666822366,
+      "median_stock": 4.063267009050356
+    },
+    "EU_only": {
+      "n": 53,
+      "profitable": 10,
+      "median_net": -6551.931813950752,
+      "median_stock": 4.71498666444989
+    },
+    "inactive": {
+      "n": 20,
+      "profitable": 0,
+      "median_net": -7939.698492462311,
+      "median_stock": 4.443872575376885
+    },
+    "AS_only": {
+      "n": 1,
+      "profitable": 0,
+      "median_net": -10217.229968000272,
+      "median_stock": 4.137524749402948
+    }
+  },
+  "counterfactual_sensitivities": {
+    "consumer_additional_qty_for_net_zero_holding_others_fixed_warranty4": 30.264463435242668,
+    "consumer_required_total_for_net_zero_holding_others_fixed_warranty4": 52.7440062390579,
+    "double_consumer_sales_net_holding_others_fixed_warranty4": -1318.2107680192717,
+    "consumer_first_round_direct_fixed": 7000,
+    "consumer_first_round_direct_contribution_assuming_w4": -3193.5674379886464,
+    "consumer_recurrent_direct_fixed_if_design_unchanged": 4800,
+    "consumer_recurrent_break_even_qty_assuming_w4": 28.347226359711684,
+    "net_without_rd_holding_everything_else_fixed": -1124.6433300306253,
+    "warning": "Accounting sensitivities only; no actual counterfactual demand, cannibalization, tax, repair or interest response modeled."
+  },
+  "benchmark_review": {
+    "record": {
+      "source": "data\\raw\\results-1\\results-pr01 (10).xls",
+      "phase": "practice-01",
+      "cohort": "6061e082f31913d3d5bde9f163d30eb2473e33483a69a9bbef255587305e8398",
+      "team": "棉花娃娃说得队",
+      "financial_column_1based": 9,
+      "finance": {
+        "product_revenue": 48643.650792207656,
+        "service_revenue": 2485.3194981629067,
+        "revenue": 51128.97029037056,
+        "product_cost": 25623.14676332128,
+        "service_cost": 1911.784229356082,
+        "variable_cost": 27534.930992677364,
+        "gross_profit": 23594.039297693198,
+        "admin": 7000.0,
+        "line": 4400.0,
+        "ads": 1610.0,
+        "channels": 2000.0,
+        "warranty": 727.034006804325,
+        "repair_quality": 300.0,
+        "rd": 3000.0,
+        "reports": 1200.0,
+        "fixed": 20237.034006804322,
+        "ebit": 3357.0052908888756,
+        "interest_income": 793.7665001898459,
+        "interest_expense": 0.0,
+        "pretax": 4150.771791078721,
+        "tax": 1203.7238194128292,
+        "net": 2947.047971665892,
+        "ar": 6756.062610028841,
+        "cash": 78753.30003796918,
+        "assets": 85509.36264799802,
+        "capital": 80000.0,
+        "retained": 0.0,
+        "current_profit": 2947.047971665892,
+        "equity": 82947.04797166589,
+        "debt": 0.0,
+        "ap": 2562.3146763321283,
+        "liabilities": 2562.3146763321283,
+        "liabilities_equity": 85509.36264799802,
+        "gross_margin_pct": 46.14612647917302,
+        "return_on_sales_pct": 6.565759630643532,
+        "net_margin_pct": 5.7639493909794774,
+        "forecast_error_pct": 60.55829193559947,
+        "stock": 8.670742334950171,
+        "cumulative_profit": 2947.047971665892,
+        "next_performance": 112.70774835361689,
+        "next_battery": 116.19613052193955,
+        "performance_technology": 100.0,
+        "battery_technology": 100.0,
+        "platform_forecast_net": -7664.325564738548
+      },
+      "products": [
+        {
+          "market": "EU",
+          "slot": 1,
+          "name": "棉花C1",
+          "source_column_1based": 44,
+          "price": 389.0,
+          "quantity": [
+            9.009469285489754,
+            30.105707816213755,
+            4.629772351957315,
+            15.295992684466704
+          ],
+          "total_quantity": 59.04094213812753,
+          "channel_sales": [
+            25.621093565204333,
+            14.990775945445929,
+            18.429072627477264
+          ],
+          "segment_share_pct": [
+            7.022417087503338,
+            8.73703663833665,
+            4.489438457700033,
+            3.5447701237963902
+          ],
+          "ads": 920.0,
+          "channels": 1000.0,
+          "performance": 80.0,
+          "battery": 50.0,
+          "features": {
+            "camera": true,
+            "storage": true,
+            "screen": false,
+            "navigation": false,
+            "security": false
+          },
+          "style": "运动",
+          "unit_cost": 211.76122428969254,
+          "awareness": [
+            46.08483488412003,
+            165.89211036759747,
+            22.986108456526928,
+            74.44720316312203
+          ],
+          "intent": [
+            9.576806190008806,
+            32.057112226775,
+            4.9796183084127374,
+            16.485099146311903
+          ],
+          "funnel_sales": [
+            9.009469285489754,
+            30.105707816213755,
+            4.629772351957315,
+            15.295992684466704
+          ]
+        },
+        {
+          "market": "EU",
+          "slot": 2,
+          "name": "棉花B1",
+          "source_column_1based": 45,
+          "price": 469.0,
+          "quantity": [
+            3.424630697674752,
+            12.390741674208318,
+            5.553047028283272,
+            33.379393607245284
+          ],
+          "total_quantity": 54.74781300741162,
+          "channel_sales": [
+            35.636924523536244,
+            9.898750517859773,
+            9.212137966015607
+          ],
+          "segment_share_pct": [
+            2.6693231718401207,
+            3.595941495367173,
+            5.38472758291284,
+            7.735508224292055
+          ],
+          "ads": 690.0,
+          "channels": 1000.0,
+          "performance": 70.0,
+          "battery": 80.0,
+          "features": {
+            "camera": false,
+            "storage": false,
+            "screen": false,
+            "navigation": true,
+            "security": true
+          },
+          "style": "运动",
+          "unit_cost": 239.6545880500883,
+          "awareness": [
+            16.356055570432055,
+            55.14446198822657,
+            27.511800968055336,
+            175.90158578369628
+          ],
+          "intent": [
+            3.7610792884369895,
+            13.476931890653729,
+            5.812966431343061,
+            34.657784196897765
+          ],
+          "funnel_sales": [
+            3.424630697674752,
+            12.390741674208318,
+            5.553047028283272,
+            33.379393607245284
+          ]
+        }
+      ],
+      "services": {
+        "EU": {
+          "markup_pct": 30.0,
+          "quantity": 54.62240655303091,
+          "revenue": 2485.3194981629067,
+          "cost": 1911.784229356082,
+          "gross": 573.5352688068247
+        },
+        "AS": {
+          "markup_pct": 30.0,
+          "quantity": 0.0,
+          "revenue": 0.0,
+          "cost": 0.0,
+          "gross": 0.0
+        }
+      },
+      "reconciliation_errors": [],
+      "stock_rank": 2,
+      "net_rank": 2
+    },
+    "market": {
+      "quantity": 1007.5061760728854,
+      "segments": [
+        128.29584419761187,
+        344.5757304497839,
+        103.12586742372176,
+        431.5087340017679
+      ],
+      "active_companies": 9,
+      "active_product_listings": 22
+    },
+    "consumer_price": 389.0,
+    "consumer_qty": 59.04094213812753,
+    "consumer_segment_shares_pct": [
+      7.022417087503337,
+      8.73703663833665,
+      4.489438457700033,
+      3.5447701237963902
+    ],
+    "consumer_qty_if_preserving_its_segment_shares_in_our_actual_market": 53.261877914661426,
+    "consumer_qty_if_preserving_its_segment_shares_in_forecast_market": 60.896190283419706,
+    "consumer_high_end_comparison": {
+      "benchmark_awareness": 165.89211036759747,
+      "our_awareness": 57.26289905605329,
+      "benchmark_intent_to_awareness_pct": 19.324072830070214,
+      "our_intent_to_awareness_pct": 19.490411237954742,
+      "benchmark_sales_to_intent_pct": 93.91272552325728,
+      "our_sales_to_intent_pct": 90.26238944094925
+    }
+  },
+  "practice_comparison": {
+    "net": {
+      "practice": -15412.7232131492,
+      "formal": -5124.643330030625,
+      "difference": 10288.079883118575
+    },
+    "revenue": {
+      "practice": 37713.461255617,
+      "formal": 35871.84922061092,
+      "difference": -1841.612035006081
+    },
+    "gross_profit": {
+      "practice": 11248.520932799922,
+      "formal": 14822.605919771984,
+      "difference": 3574.0849869720623
+    },
+    "fixed": {
+      "practice": 27367.770172931672,
+      "formal": 20703.384428723875,
+      "difference": -6664.385744207797
+    },
+    "rd": {
+      "practice": 6000.0,
+      "formal": 4000.0,
+      "difference": -2000.0
+    },
+    "stock": {
+      "practice": 3.985617769825508,
+      "formal": 4.318709289212659,
+      "difference": 0.3330915193871511
+    },
+    "forecast_error_pct": {
+      "practice": 1533.3426854019035,
+      "formal": 74.41441994334383,
+      "difference": -1458.9282654585597
+    }
+  },
+  "reset_evidence": {
+    "all_current_tech_100": true,
+    "all_retained_zero": true,
+    "all_capital_80000": true
+  },
+  "raw_accounting_reconciliation_errors": [
+    {
+      "source": "data\\raw\\formal\\round-01\\cohort-470e1ef662db-bd926f00.xls",
+      "team": "疯狂星期四",
+      "check": "advertising",
+      "left": 34.0,
+      "right": 59.0,
+      "delta": -25.0
+    },
+    {
+      "source": "data\\raw\\formal\\round-01\\cohort-470e1ef662db-bd926f00.xls",
+      "team": "疯狂星期四",
+      "check": "channels",
+      "left": 14.0,
+      "right": 38.0,
+      "delta": -24.0
+    },
+    {
+      "source": "data\\raw\\formal\\round-01\\cohort-5a0a71c4bcd2-1c9bdc8d.xls",
+      "team": "海上鹿车夫",
+      "check": "product_cost",
+      "left": 24352.671670250736,
+      "right": 28796.64149178598,
+      "delta": -4443.969821535244
+    },
+    {
+      "source": "data\\raw\\formal\\round-01\\cohort-5a0a71c4bcd2-1c9bdc8d.xls",
+      "team": "四人行策队",
+      "check": "product_cost",
+      "left": 49159.847144887746,
+      "right": 54694.55088528506,
+      "delta": -5534.703740397315
+    },
+    {
+      "source": "data\\raw\\results-1\\results-pr01 (12).xls",
+      "team": "我们的决策都队",
+      "check": "channels",
+      "left": 0,
+      "right": 210.0,
+      "delta": -210.0
+    },
+    {
+      "source": "data\\raw\\results-1\\results-pr01 (16).xls",
+      "team": "大A",
+      "check": "advertising",
+      "left": 1250.0,
+      "right": 1950.0,
+      "delta": -700.0
+    },
+    {
+      "source": "data\\raw\\results-1\\results-pr01 (16).xls",
+      "team": "大A",
+      "check": "channels",
+      "left": 750.0,
+      "right": 1150.0,
+      "delta": -400.0
+    }
+  ],
+  "missing_decisions": [
+    "submitted_segment_sales_forecasts",
+    "ad_spend_by_segment",
+    "channel_spend_by_channel",
+    "rd_split",
+    "warranty_months",
+    "submitted_repair_forecasts"
+  ],
+  "sources": [
+    "data\\raw\\formal\\round-01\\cohort-08baa1030767-6843d96e.xls",
+    "data\\raw\\formal\\round-01\\cohort-0e3986c1cd49-8214cf1e.xls",
+    "data\\raw\\formal\\round-01\\cohort-1529e6eb08da-adc02b23.xls",
+    "data\\raw\\formal\\round-01\\cohort-17d424f9af36-75d4aa5a.xls",
+    "data\\raw\\formal\\round-01\\cohort-1fc9659d58be-e809df12.xls",
+    "data\\raw\\formal\\round-01\\cohort-27ac2e3995ac-5eea1577.xls",
+    "data\\raw\\formal\\round-01\\cohort-2d1eeaf8a095-bedd8843.xls",
+    "data\\raw\\formal\\round-01\\cohort-3286cb72685c-a5569b39.xls",
+    "data\\raw\\formal\\round-01\\cohort-420a90e0f03c-ff99d4dc.xls",
+    "data\\raw\\formal\\round-01\\cohort-42a9ed6c4eb1-bc344a59.xls",
+    "data\\raw\\formal\\round-01\\cohort-470e1ef662db-bd926f00.xls",
+    "data\\raw\\formal\\round-01\\cohort-4af3f8723af9-2762c7c7.xls",
+    "data\\raw\\formal\\round-01\\cohort-4d75bca778b9-08e2a398.xls",
+    "data\\raw\\formal\\round-01\\cohort-52d99fa47417-5a958df6.xls",
+    "data\\raw\\formal\\round-01\\cohort-5a0a71c4bcd2-1c9bdc8d.xls",
+    "data\\raw\\formal\\round-01\\cohort-6061e082f319-298602a6.xls",
+    "data\\raw\\formal\\round-01\\cohort-a7c91ecacc99-6fbb753f.xls",
+    "data\\raw\\formal\\round-01\\cohort-b38579a77940-cc0dcbee.xls",
+    "data\\raw\\formal\\round-01\\cohort-bf66b99868a8-e553a2de.xls",
+    "data\\raw\\formal\\round-01\\cohort-c9087664236f-6641cad5.xls",
+    "data\\raw\\formal\\round-01\\cohort-cf4bf6f5aac6-e681efde.xls",
+    "data\\raw\\formal\\round-01\\cohort-d44c7869768e-3b4bfd95.xls",
+    "data\\raw\\formal\\round-01\\cohort-fdeaa07d8867-f4b818c6.xls"
+  ],
+  "data_quality": {
+    "formal_files": 23,
+    "practice_files": 23,
+    "our_cohort_all_checks_pass": true,
+    "all_income_statements_and_balance_sheets_internally_reconcile": true,
+    "formal_cohorts_with_product_detail_warnings": 2,
+    "unresolved_cross_table_warnings": [
+      {
+        "source": "data\\raw\\formal\\round-01\\cohort-470e1ef662db-bd926f00.xls",
+        "team": "疯狂星期四",
+        "check": "advertising",
+        "left": 34.0,
+        "right": 59.0,
+        "delta": -25.0
+      },
+      {
+        "source": "data\\raw\\formal\\round-01\\cohort-470e1ef662db-bd926f00.xls",
+        "team": "疯狂星期四",
+        "check": "channels",
+        "left": 14.0,
+        "right": 38.0,
+        "delta": -24.0
+      },
+      {
+        "source": "data\\raw\\formal\\round-01\\cohort-5a0a71c4bcd2-1c9bdc8d.xls",
+        "team": "海上鹿车夫",
+        "check": "product_cost",
+        "left": 24352.671670250736,
+        "right": 28796.64149178598,
+        "delta": -4443.969821535244
+      },
+      {
+        "source": "data\\raw\\formal\\round-01\\cohort-5a0a71c4bcd2-1c9bdc8d.xls",
+        "team": "四人行策队",
+        "check": "product_cost",
+        "left": 49159.847144887746,
+        "right": 54694.55088528506,
+        "delta": -5534.703740397315
+      },
+      {
+        "source": "data\\raw\\results-1\\results-pr01 (12).xls",
+        "team": "我们的决策都队",
+        "check": "channels",
+        "left": 0,
+        "right": 210.0,
+        "delta": -210.0
+      },
+      {
+        "source": "data\\raw\\results-1\\results-pr01 (16).xls",
+        "team": "大A",
+        "check": "advertising",
+        "left": 1250.0,
+        "right": 1950.0,
+        "delta": -700.0
+      },
+      {
+        "source": "data\\raw\\results-1\\results-pr01 (16).xls",
+        "team": "大A",
+        "check": "channels",
+        "left": 750.0,
+        "right": 1150.0,
+        "delta": -400.0
+      }
+    ],
+    "scope": "Financial distribution uses reconciled financial tables; anomalous foreign product cost and spend fields are not used in causal comparisons."
+  },
+  "source_hashes": {
+    "data\\raw\\formal\\round-01\\cohort-08baa1030767-6843d96e.xls": "3d0ddc92364a8c8f4512b9218303e16b66db1fdc09e378ce096ce9358ffa237b",
+    "data\\raw\\formal\\round-01\\cohort-0e3986c1cd49-8214cf1e.xls": "0555521422eb7377be96804a0aff2c4ec70b326f3d3031d46be8c3cd37816c6c",
+    "data\\raw\\formal\\round-01\\cohort-1529e6eb08da-adc02b23.xls": "08fadd095d2021d7c4c7bb37da3bfc97746ff5c2994f90663970e2b6142ef8f2",
+    "data\\raw\\formal\\round-01\\cohort-17d424f9af36-75d4aa5a.xls": "8dc81556a9fc4d9c282fa9e156571a3944bee200f21fbe216206de81b49979f1",
+    "data\\raw\\formal\\round-01\\cohort-1fc9659d58be-e809df12.xls": "9f0c214256cd0a076db03dc3509a34b1edfa7d6e8939d8c9371c0bd34175572e",
+    "data\\raw\\formal\\round-01\\cohort-27ac2e3995ac-5eea1577.xls": "06f48f1be30aeb931c5769816e246ea3196de812b2af5ef6a1d4e8128be310a6",
+    "data\\raw\\formal\\round-01\\cohort-2d1eeaf8a095-bedd8843.xls": "260d4b04edba36122a9d7d1d8afd78e5a89efcc266c301871aa0e5a4cc00e6ac",
+    "data\\raw\\formal\\round-01\\cohort-3286cb72685c-a5569b39.xls": "4d861bdfd8b7ce94bc132df5e443c068d2b6fe30dae9cb7c2952100f10d883fd",
+    "data\\raw\\formal\\round-01\\cohort-420a90e0f03c-ff99d4dc.xls": "f60acafa6d1711260d60c7f8bf47cef6dba5a7aadbdb60bbca7f34aff4726143",
+    "data\\raw\\formal\\round-01\\cohort-42a9ed6c4eb1-bc344a59.xls": "1af369869a67c0ff7dcce7aa90a53342bcbed85fceaf0048b40897058c6d8b8a",
+    "data\\raw\\formal\\round-01\\cohort-470e1ef662db-bd926f00.xls": "cd8d5b0e785603b069a9a195ce4d37ba3379be1345e8afa067b6a1f1c1060549",
+    "data\\raw\\formal\\round-01\\cohort-4af3f8723af9-2762c7c7.xls": "e6b799e743d67fc53ad35336d4c647110acacb1c068376346e42f632151ffc10",
+    "data\\raw\\formal\\round-01\\cohort-4d75bca778b9-08e2a398.xls": "e4f9b399d832db0fddd656421a556f99dfe4b01f02a97047afda839bf0f78ea5",
+    "data\\raw\\formal\\round-01\\cohort-52d99fa47417-5a958df6.xls": "ce1eccc9127b19dc0313417e43fdd2fffc64bba274a5e81bc23d3876ea45cbef",
+    "data\\raw\\formal\\round-01\\cohort-5a0a71c4bcd2-1c9bdc8d.xls": "4423d9f9d3fcfb6a3d4bf6ad5248cc2588f3bbbd276a6d4e713bfe6eef78b72c",
+    "data\\raw\\formal\\round-01\\cohort-6061e082f319-298602a6.xls": "a6f2cea0f1625ca3a840650a8b3287230919510cd132d7b8bce32ec3fd8b2164",
+    "data\\raw\\formal\\round-01\\cohort-a7c91ecacc99-6fbb753f.xls": "ce5c1118b406de1378ec000588ad1f4d390c5040818345049fa11055de8dca02",
+    "data\\raw\\formal\\round-01\\cohort-b38579a77940-cc0dcbee.xls": "25b3cd8a17c57af93bf471a77b58e58c59f19294981c93bcfe34088a93b20dbc",
+    "data\\raw\\formal\\round-01\\cohort-bf66b99868a8-e553a2de.xls": "bbe15484ccd71c4df72c506c5b20f8c1c7a2352eeebf48a80484be77f313f777",
+    "data\\raw\\formal\\round-01\\cohort-c9087664236f-6641cad5.xls": "6e689cc78a74650873bd08b9f2fcab37bb99fb58390a6213837e7865d2282b64",
+    "data\\raw\\formal\\round-01\\cohort-cf4bf6f5aac6-e681efde.xls": "8584425a288ac812f50a5b0656ae0a833619c228b83c48938d51335d710381ba",
+    "data\\raw\\formal\\round-01\\cohort-d44c7869768e-3b4bfd95.xls": "ad3fded4ac3e0cf087c5191757c521aa26bba0afb1f952943672af4c447158c2",
+    "data\\raw\\formal\\round-01\\cohort-fdeaa07d8867-f4b818c6.xls": "7c32e189c43f952d11bb2b21bc573e204aca87c348eef10e149b889e7e3de76c",
+    "data\\raw\\results-1\\results-pr01 (1).xls": "cb6bde4f47c91746fc905aaecd4399dfa25bceaf315e57d5b3cc75e111b52698",
+    "data\\raw\\results-1\\results-pr01 (10).xls": "a9bb9505f899c9d64f1d3534722b9e9ef92ab48a2462d17117595d8b83c3be39",
+    "data\\raw\\results-1\\results-pr01 (11).xls": "cd7d464aea0d8d4928404b3709aacb223c6fb0aa0fdfaa501a1e040671bab358",
+    "data\\raw\\results-1\\results-pr01 (12).xls": "39fcfa0302ab725b559e647b03bc2a029ee6fc19fb0cf5f0b19a50e5f843a974",
+    "data\\raw\\results-1\\results-pr01 (13).xls": "7fcaa76952eed1aec9ceabf1f3eabbffaaac2584014d458ede2a59784a763d46",
+    "data\\raw\\results-1\\results-pr01 (14).xls": "38a7fa8294fa2ebbcd6e412cae15b34da441b7cf3b88ae326589e8bba17e22bd",
+    "data\\raw\\results-1\\results-pr01 (15).xls": "8befbec93dc8e962c4e2c84b5d1b8d66d40de886277eceb065a053c0470f4bdf",
+    "data\\raw\\results-1\\results-pr01 (16).xls": "80763655917746462e425caacd912fe3911f250dd19aa75b18417f231f8090b6",
+    "data\\raw\\results-1\\results-pr01 (17).xls": "cb96046f695a11fe36fc685ececcde27c240f504481fd3d5b129fb7e5ec62ba6",
+    "data\\raw\\results-1\\results-pr01 (18).xls": "444d8a5e4940ff0bf72576a40dc02e20931f3657edbafbfdfd0e8b8e04c0cf35",
+    "data\\raw\\results-1\\results-pr01 (19).xls": "742da27c15ab9273b496e13bdb902dc6bcef3582b11b371d4768cfe144093bcf",
+    "data\\raw\\results-1\\results-pr01 (2).xls": "74daf9e5ef6602eabb6ad50116805ba7acd16b3c3c54c7e00d5ba99ef96a5593",
+    "data\\raw\\results-1\\results-pr01 (20).xls": "3d2b41cc3b8e2a64114f431ea530c1515bbced29033adc5bde4e0bb606fb24d3",
+    "data\\raw\\results-1\\results-pr01 (21).xls": "9da813789de3cb371430605338bd97c541ae4f6b2279430f95fa3171066a05e2",
+    "data\\raw\\results-1\\results-pr01 (22).xls": "c47b8b092d754e57bfa012a9c02af5678e6bf4bf940675217442ca0ec7e6e878",
+    "data\\raw\\results-1\\results-pr01 (3).xls": "0ae596b1b2a12e336f502b63b9e8c2fd2d73554b7db3591049977cd947f20310",
+    "data\\raw\\results-1\\results-pr01 (4).xls": "58ece226316fc387821af5adf3a55d05ba20593dfcf14e1cd354f1397e0e4a10",
+    "data\\raw\\results-1\\results-pr01 (5).xls": "5f7b0eff380060a82ca5acc2dc56f13d4addde0a1911cac4fd41bda65474d35e",
+    "data\\raw\\results-1\\results-pr01 (6).xls": "17a7f11344235971ba7e7dfdcdc7357892df2687cc826aec76fa0989a04499d8",
+    "data\\raw\\results-1\\results-pr01 (7).xls": "5a8f0cda18c89fffe54a2dfc8b08c486d7600d9489d929d1b55b04a8a1f60027",
+    "data\\raw\\results-1\\results-pr01 (8).xls": "97e5a18a2cc131ef80d52ad7a47ca9c7e28599e55c7894800a0f41b177f8e357",
+    "data\\raw\\results-1\\results-pr01 (9).xls": "ea7788c4a2a7c1d0f9f98e3f0dc3074f675b77a2fbc0eee4b0d12f40fcdcbe60",
+    "data\\raw\\results-1\\results-pr01.xls": "a566e70a758d4acb6a65e3834a070c1bd37366eceeb7bedd93fb0c3b6bb87975"
+  },
+  "cash_scope_check": {
+    "ar_product_sales_60_360_residual": 0.0,
+    "ap_product_cost_10pct_residual": 0.0,
+    "prior_cash_model_error": "Previous simplified calculator applied AR/AP to repair revenue/cost too; this is inconsistent with our actual export."
+  },
+  "units": {
+    "financial": "thousand EUR",
+    "price_cost_stock": "EUR",
+    "volume": "thousand units"
+  },
+  "our_summary": {
+    "quantity_total": 74.48583840469381,
+    "recommended_quantity": 125,
+    "quantity_shortfall_pct": 40.411329276244956,
+    "EU_share_pct": 8.260126749683986,
+    "EU_market_vs_approx_outlook_pct": -13.707965479353168,
+    "AS_market_vs_approx_outlook_pct": -42.135245969472365,
+    "all_peer_net_negative": true,
+    "previous_practice_EU_share_pct": 9.379005164120608,
+    "platform_estimated_net_minus_realized": 7936.3790762067465,
+    "market_arithmetic_shortfall": 16.93599881170624,
+    "share_arithmetic_shortfall": 33.57816278359995
+  }
+}

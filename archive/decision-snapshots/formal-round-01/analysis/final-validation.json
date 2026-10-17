@@ -1,0 +1,18 @@
+{
+  "version": "R1-20261017-v1",
+  "raw_files_verified": 49,
+  "screenshots_verified": 25,
+  "archived_files_verified": 113,
+  "base_revenue_recomputed": 54425.0,
+  "base_product_ebit_recomputed": 2491.55,
+  "local_document_links": "verified",
+  "platform_quote_for_new_product": "not_verified",
+  "actual_demand": "unknown",
+  "submission": "not_performed",
+  "outputs": {
+    "current/final-round1-plan.md": "53501d14c9045859016626c6f7d19d42fa8b581e760792350f5e247ef4b9a749",
+    "current/round1-entry-checklist.md": "ff12548682e91a7eccea8f0dee217f5a8d34ab568883f5299f959338b1696048",
+    "analysis/round1_plan.json": "06b591a57e87e5886410dc8cd80dfe632e49294f15b0533807ce4a96304eb2bf",
+    "analysis/round1-scenario-results.json": "12f5c48038bc6f9cc67fb887220ee51b0e33ed42f80012fefad516b9d2a6d6b7"
+  }
+}

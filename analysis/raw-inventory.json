@@ -1,0 +1,198 @@
+[
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (1).xls",
+    "sha256": "cb6bde4f47c91746fc905aaecd4399dfa25bceaf315e57d5b3cc75e111b52698"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (10).xls",
+    "sha256": "a9bb9505f899c9d64f1d3534722b9e9ef92ab48a2462d17117595d8b83c3be39"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (11).xls",
+    "sha256": "cd7d464aea0d8d4928404b3709aacb223c6fb0aa0fdfaa501a1e040671bab358"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (12).xls",
+    "sha256": "39fcfa0302ab725b559e647b03bc2a029ee6fc19fb0cf5f0b19a50e5f843a974"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (13).xls",
+    "sha256": "7fcaa76952eed1aec9ceabf1f3eabbffaaac2584014d458ede2a59784a763d46"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (14).xls",
+    "sha256": "38a7fa8294fa2ebbcd6e412cae15b34da441b7cf3b88ae326589e8bba17e22bd"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (15).xls",
+    "sha256": "8befbec93dc8e962c4e2c84b5d1b8d66d40de886277eceb065a053c0470f4bdf"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (16).xls",
+    "sha256": "80763655917746462e425caacd912fe3911f250dd19aa75b18417f231f8090b6"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (17).xls",
+    "sha256": "cb96046f695a11fe36fc685ececcde27c240f504481fd3d5b129fb7e5ec62ba6"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (18).xls",
+    "sha256": "444d8a5e4940ff0bf72576a40dc02e20931f3657edbafbfdfd0e8b8e04c0cf35"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (19).xls",
+    "sha256": "742da27c15ab9273b496e13bdb902dc6bcef3582b11b371d4768cfe144093bcf"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (2).xls",
+    "sha256": "74daf9e5ef6602eabb6ad50116805ba7acd16b3c3c54c7e00d5ba99ef96a5593"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (20).xls",
+    "sha256": "3d2b41cc3b8e2a64114f431ea530c1515bbced29033adc5bde4e0bb606fb24d3"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (21).xls",
+    "sha256": "9da813789de3cb371430605338bd97c541ae4f6b2279430f95fa3171066a05e2"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (22).xls",
+    "sha256": "c47b8b092d754e57bfa012a9c02af5678e6bf4bf940675217442ca0ec7e6e878"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (3).xls",
+    "sha256": "0ae596b1b2a12e336f502b63b9e8c2fd2d73554b7db3591049977cd947f20310"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (4).xls",
+    "sha256": "58ece226316fc387821af5adf3a55d05ba20593dfcf14e1cd354f1397e0e4a10"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (5).xls",
+    "sha256": "5f7b0eff380060a82ca5acc2dc56f13d4addde0a1911cac4fd41bda65474d35e"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (6).xls",
+    "sha256": "17a7f11344235971ba7e7dfdcdc7357892df2687cc826aec76fa0989a04499d8"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (7).xls",
+    "sha256": "5a8f0cda18c89fffe54a2dfc8b08c486d7600d9489d929d1b55b04a8a1f60027"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (8).xls",
+    "sha256": "97e5a18a2cc131ef80d52ad7a47ca9c7e28599e55c7894800a0f41b177f8e357"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01 (9).xls",
+    "sha256": "ea7788c4a2a7c1d0f9f98e3f0dc3074f675b77a2fbc0eee4b0d12f40fcdcbe60"
+  },
+  {
+    "path": "data\\raw\\results-1\\results-pr01.xls",
+    "sha256": "a566e70a758d4acb6a65e3834a070c1bd37366eceeb7bedd93fb0c3b6bb87975"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (1).xls",
+    "sha256": "5c16af9648d30450e32fbf728a9ade1e1c210bb082ed26401eec158d4bee3adf"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (10).xls",
+    "sha256": "176a99bef92949d85ef8e01da224ba60d1ee9659dabf0d3aa44f775137948104"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (11).xls",
+    "sha256": "8d37329c8bb5d70ed4b28e62cde80727305c56b83fc9b0c81103e813b2cf4680"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (12).xls",
+    "sha256": "10f03c74b7463ddb5c9e53ee4905bf6f756902af1458e9ac44facb7a47318785"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (13).xls",
+    "sha256": "0bd3db393bf5c8105d2ddec91bebbe806e474a0063894e72ba52984276e422f2"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (14).xls",
+    "sha256": "5b542398987cff5c944bd7d13064cb88fad8212b3bec8eabe0322426e4bc893e"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (15).xls",
+    "sha256": "8d37329c8bb5d70ed4b28e62cde80727305c56b83fc9b0c81103e813b2cf4680"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (16).xls",
+    "sha256": "10f03c74b7463ddb5c9e53ee4905bf6f756902af1458e9ac44facb7a47318785"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (17).xls",
+    "sha256": "b8b99a346225a5be9a6cc19a12171357193f3b3003cfffe7c6ecadb81f87417e"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (18).xls",
+    "sha256": "f9c8e9d153e9c1066cab30e5fabb1750787849216c14107228e0d802b1ec467f"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (19).xls",
+    "sha256": "d9437f5bc4b655b7b1ef782893b9770d5d33a8056a4bb75249abdc4a2c773c94"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (2).xls",
+    "sha256": "f727ca012b3d087aa38bb2212117c57ad30c9cc6426897660d4b47881a5d0559"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (20).xls",
+    "sha256": "83167a3219066bc32dd12ce7880458a34f54a23fe5ecb9022fd4787171edc8bf"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (21).xls",
+    "sha256": "ca2dded88463524431315c84e6840caa862798d17e8cd7234a74f60c42ab5e88"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (22).xls",
+    "sha256": "c8c74eff6160d5351803ab04a8a23221f877cc84f80419d3d9ed5233df46a80e"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (23).xls",
+    "sha256": "2793efae38b8486c8c186365a77a4abe3ec9a4c5f22bba4c77a5d277da24fdb3"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (3).xls",
+    "sha256": "2076050dacc807e87c97c112a0fd5adc5136906793e3a13e38669edcaab925b7"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (4).xls",
+    "sha256": "02d6a75bb1c72a450cdea9cfa09153dffc2c4888b88737036689dab5a2781bab"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (5).xls",
+    "sha256": "ee48fa0c18851a48101d6112cec4e09fa485be73dd376c477107580e79553afd"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (6).xls",
+    "sha256": "2355eabd4495244dc819c303a3f9bdbc5f7f65e1d1c2338f85d1fabb7538580b"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (7).xls",
+    "sha256": "6c3a406d3a46f2e5a45f98c09ed4090a7bc77a50eabed38539fcc956d29f51cf"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (8).xls",
+    "sha256": "08bd8c26105bca8e2837d3c7591b32dc39c2e47e4d5dcab8aa35c5f917022e52"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02 (9).xls",
+    "sha256": "23eafc5e781d9fb73824b03d0333ad7250f7dd5f36c45600d39016342303b9f8"
+  },
+  {
+    "path": "data\\raw\\results-2\\results-pr02.xls",
+    "sha256": "4e72c9e492724426262808b84742f7e68ef230c6482bb8afb02186ef08ccce00"
+  },
+  {
+    "path": "data\\raw\\决策指南.pdf",
+    "sha256": "3ce6e5b53318e2b37f7caf691f96d74042f328a1a3101727ff72365df671b69c"
+  },
+  {
+    "path": "data\\raw\\市场调研报告.pdf",
+    "sha256": "309ce9444513668efd8061570280625498f23c51f5efc66442a0074b6ffec496"
+  }
+]

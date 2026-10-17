@@ -1,0 +1,250 @@
+{
+  "fixed_parts": {
+    "management": 7000,
+    "production_lines": 4400,
+    "advertising": 1900,
+    "channels": 1900,
+    "research_reports": 1200,
+    "RD": 4000,
+    "repair_quality": 26
+  },
+  "fixed_excluding_warranty": 20426,
+  "scenarios": {
+    "severe": {
+      "0": {
+        "rev": 28385.0,
+        "cost": 16173.25,
+        "warranty": 252.3,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": -8466.55,
+        "tax": 0.0,
+        "net": -8466.55,
+        "ar": 4730.833333333333,
+        "ap": 1617.325,
+        "cash": 68419.94166666667
+      },
+      "0.05": {
+        "rev": 28385.0,
+        "cost": 16981.9125,
+        "warranty": 252.3,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": -9275.2125,
+        "tax": 0.0,
+        "net": -9275.2125,
+        "ar": 4730.833333333333,
+        "ap": 1698.19125,
+        "cash": 67692.14541666667
+      },
+      "0.1": {
+        "rev": 28385.0,
+        "cost": 17790.575,
+        "warranty": 252.3,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": -10083.875,
+        "tax": 0.0,
+        "net": -10083.875,
+        "ar": 4730.833333333333,
+        "ap": 1779.0575,
+        "cash": 66964.34916666667
+      }
+    },
+    "downside": {
+      "0": {
+        "rev": 37065.0,
+        "cost": 21122.75,
+        "warranty": 330.1,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": -4813.85,
+        "tax": 0.0,
+        "net": -4813.85,
+        "ar": 6177.5,
+        "ap": 2112.275,
+        "cash": 71120.925
+      },
+      "0.05": {
+        "rev": 37065.0,
+        "cost": 22178.8875,
+        "warranty": 330.1,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": -5869.9875,
+        "tax": 0.0,
+        "net": -5869.9875,
+        "ar": 6177.5,
+        "ap": 2217.88875,
+        "cash": 70170.40125
+      },
+      "0.1": {
+        "rev": 37065.0,
+        "cost": 23235.025,
+        "warranty": 330.1,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": -6926.125,
+        "tax": 0.0,
+        "net": -6926.125,
+        "ar": 6177.5,
+        "ap": 2323.5025,
+        "cash": 69219.8775
+      }
+    },
+    "base": {
+      "0": {
+        "rev": 54425.0,
+        "cost": 31021.75,
+        "warranty": 485.7,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": 2491.55,
+        "tax": 722.5495,
+        "net": 1769.0005,
+        "ar": 9070.833333333334,
+        "ap": 3102.175,
+        "cash": 75800.34216666667
+      },
+      "0.05": {
+        "rev": 54425.0,
+        "cost": 32572.8375,
+        "warranty": 485.7,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": 940.4625,
+        "tax": 272.734125,
+        "net": 667.728375,
+        "ar": 9070.833333333334,
+        "ap": 3257.28375,
+        "cash": 74854.17879166667
+      },
+      "0.1": {
+        "rev": 54425.0,
+        "cost": 34123.925,
+        "warranty": 485.7,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": -610.625,
+        "tax": 0.0,
+        "net": -610.625,
+        "ar": 9070.833333333334,
+        "ap": 3412.3925,
+        "cash": 73730.93416666667
+      }
+    },
+    "upside": {
+      "0": {
+        "rev": 76125.0,
+        "cost": 43395.5,
+        "warranty": 680.2,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": 11623.3,
+        "tax": 3370.757,
+        "net": 8252.543,
+        "ar": 12687.5,
+        "ap": 4339.55,
+        "cash": 79904.593
+      },
+      "0.05": {
+        "rev": 76125.0,
+        "cost": 45565.275,
+        "warranty": 680.2,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": 9453.525,
+        "tax": 2741.52225,
+        "net": 6712.00275,
+        "ar": 12687.5,
+        "ap": 4556.5275,
+        "cash": 78581.03025
+      },
+      "0.1": {
+        "rev": 76125.0,
+        "cost": 47735.05,
+        "warranty": 680.2,
+        "repair_cost": 0.0,
+        "repair_rev": 0.0,
+        "ebit": 7283.75,
+        "tax": 2112.2875,
+        "net": 5171.4625,
+        "ar": 12687.5,
+        "ap": 4773.505,
+        "cash": 77257.4675
+      }
+    }
+  },
+  "base_with_repair": {
+    "rev": 54425.0,
+    "cost": 31021.75,
+    "warranty": 485.7,
+    "repair_cost": 1225.0,
+    "repair_rev": 1592.5,
+    "ebit": 2859.05,
+    "tax": 829.1245,
+    "net": 2029.9255,
+    "ar": 9336.25,
+    "ap": 3224.675,
+    "cash": 75918.3505
+  },
+  "base_consumer_cost_240": {
+    "rev": 54425.0,
+    "cost": 31621.75,
+    "warranty": 485.7,
+    "repair_cost": 0.0,
+    "repair_rev": 0.0,
+    "ebit": 1891.55,
+    "tax": 548.5495,
+    "net": 1343.0005,
+    "ar": 9070.833333333334,
+    "ap": 3162.175,
+    "cash": 75434.34216666667
+  },
+  "assumptions": {
+    "reset": "financial_and_technology_reset_supported_full_state_reset_unconfirmed",
+    "opening_net_assets": 80000,
+    "tax_rate": 0.29,
+    "accounts_payable_rate": 0.1,
+    "ar_day_basis": 360,
+    "payment_days": 60,
+    "interest": 0,
+    "europe_market_approx": [
+      145,
+      345,
+      95,
+      460
+    ],
+    "market_values_are_approximate": true,
+    "quantities_are_judgment_scenarios_not_fitted_predictions": true
+  },
+  "break_even_quantity_same_mix": 111.41025109577593,
+  "break_even_consumer_given_65_business": 44.89969696969696,
+  "segment_company_forecast": [
+    10,
+    50,
+    8,
+    57
+  ],
+  "segment_share_pct_approx": [
+    6.896551724137931,
+    14.492753623188406,
+    8.421052631578947,
+    12.391304347826088
+  ],
+  "fallback_single_fixed": 13426,
+  "fallback_single_ebit": 995.6000000000004,
+  "fallback_consumer_ebit_at_cost_cap": 1061.550000000003,
+  "reconcile_old_budget": {
+    "EU_product_revenue": 440000,
+    "AS_product_revenue": 57750,
+    "cash_using_displayed_rounded_values": 127049
+  },
+  "notes": [
+    "Cash assumes reset, zero beginning liabilities and retained profits; not platform forecast.",
+    "Tax illustration assumes no loss carryforward and ignores interest.",
+    "Scenario uplift is a stress assumption, not an estimated penalty formula.",
+    "Warranty includes provision once; fixed excludes warranty.",
+    "Repair base is kept separate; scenario comparison excludes repair gross profit."
+  ]
+}

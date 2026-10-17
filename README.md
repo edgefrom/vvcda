@@ -1,70 +1,32 @@
-# 商海之弈 · 决策支持工具（CDA）
+# CESIM 决策审查工作区
 
-回合制商业模拟（CESIM Marketing 平台 · 手机案例）的经营决策支持系统。
-目标：让本队在 10 回合结束时**赛区期末股价第 1**（仅第 1 名晋级）。
----
+团队共享仓库：https://github.com/edgefrom/vvcda 。**新电脑／新GPT先读[接手说明](docs/HANDOFF.md)和[协作开发规范](docs/DEVELOPMENT.md)，再读当前诊断。** 原始数据、截图、分析结果和历史归档均随库传递，聊天背景不会自动随文件传递。
 
-## 快速开始
+快速校验：Python3.11+系统环境，`python -m pip install -r requirements.txt`，然后 `python -X utf8 analysis/verify_workspace.py`。只阅读资料无需安装；当前工具不依赖旧模型。
 
-```powershell
-# 安装依赖（系统 Python，无 venv）
-python -m pip install -r requirements.txt
+当前阶段：**正式第一轮已结算，已完成原始结果诊断及首轮方案复盘。当前尚无第二轮完整建议。**
 
-# 运行测试
-python -m pytest
+当前入口：[第一轮完整诊断](current/formal-round1-diagnosis.md)。本队净利润-5124.64千欧元、股价4.3187欧元，同赛区分别第2／10、第4／10。消费者款外观与建议不同，其他若干最终提交分项仍无法从结果直接反查。不能将原建议自动当作实际提交。
 
-# 核心算法端到端演示（合成数据 → 需求估计 → 蒙特卡洛 → 搜索 → 建议）
-python scripts/demo.py
-```
+证据入口：[本队正式结果](data/raw/formal/round-01/cohort-4d75bca778b9-08e2a398.xls)、[诊断底稿与完整勾稽](analysis/formal-round-01/diagnosis.json)、[人工入件规范](current/data-intake-policy.md)、[本次入件来源清单](data/intake/20261017T221830.json)。
 
-## 目录结构
+历史追溯：[事前完整建议](current/final-round1-plan.md)、[事前录入清单](current/round1-entry-checklist.md)、[冻结快照及哈希](archive/decision-snapshots/formal-round-01/manifest.json)。这些文件与 analysis/round1_plan.json、round1-scenario-results.json 均保留原预测，**不是实际结果或下一轮输入**。原简化现金计算有口径错误，修正见最新诊断。
 
-```
-cda/
-├── IMPORTANT.md            # ⭐ 入口：当前回合决策卡（最优先看这个）
-├── AGENTS.md               # AI 代理 / 协作者指南
-├── config/                 # 平台相关配置（登录后按真实平台填写）
-│   ├── decision_schema.yaml   # 决策表单字段定义
-│   └── market_research.yaml   # 市场调研转写（8 细分×偏好，先验来源）
-├── data/
-│   └── raw/                # 原始下载物（入库）
-│       ├── 决策指南.pdf / 市场调研报告.pdf
-│       └── results/        # 练习回合结果 xls（23 份）
-├── src/cda/                # 平台无关核心算法包
-│   ├── schemas.py          # 统一数据结构（全项目依赖根）
-│   ├── adapters/           # 数据适配层（JSON/CSV/内存 + 注册表 + xls 解析）
-│   ├── demand/             # 需求模型（logit 基线 + 贝叶斯 + RLS）
-│   ├── opponent/           # 对手建模（类型识别 + 纳什预判）
-│   ├── optimize/           # 约束 + 差分进化 / 分层搜索
-│   ├── eval/               # 财务仿真 + 蒙特卡洛 + 代理目标
-│   └── output/             # 建议格式化（Markdown）
-├── scripts/                # 命令行入口（demo.py 端到端演示）
-├── tests/                  # 合成数据测试
-└── docs/
-    ├── guides/             # 给全队看（算法解读/工作流/复盘/提取）
-    ├── technical/          # 给技术看（架构/数据契约/建模决策）
-    └── decision-log/       # 每回合决策日志
-```
+current/facts.md、readiness-check.md、review-before-decision.md 是首轮决策前阶段材料；25张网站截图是当时快照，其中预算不是实际业绩。规则背景见 current/rules-verified.md，仍以原始指南／调研为准。正式结果现支持财务和技术重置，隐含品牌、渠道状态仍未完全确认。
 
-## 文档导航
-
-| 文档 | 内容 | 读者 |
+| 位置 | 用途 | 可靠性说明 |
 |---|---|---|
-| `IMPORTANT.md` | ⭐ **入口**：当前回合决策卡（截止时间/照抄值/交卷清单） | 👥 全队 |
-| `docs/guides/algorithm-explained.md` | 算法通俗解读（做什么、能/不能帮你什么） | 👥 全队 |
-| `docs/guides/workflow.md` | 每日闭环工作流 + 练习回合实验设计 | 👥 全队 |
-| `docs/guides/round1-analysis.md` | 练习回合 1 全市场复盘（弹性/盈利密码） | 👥 全队 |
-| `docs/guides/decision-guide-extracted.md` | 决策指南 36 页的规则与决策空间提取 | 👥 全队 |
-| `docs/guides/market-research-extracted.md` | 市场调研报告 9 页的结构化提取 | 👥 全队 |
-| `docs/technical/architecture.md` | 分层架构与模块边界 | 技术 |
-| `docs/technical/data-contracts.md` | 统一数据结构与配置字段的精确含义 | 技术 |
-| `docs/technical/modeling-decisions.md` | 建模决策记录（方法论、优先级、砍掉/保留项） | 技术 |
-| `docs/decision-log/template.md` | 每回合决策日志模板 | 👥 全队 |
-| `AGENTS.md` | 面向 AI 代理的仓库指南（约定、命令、红线） | AI |
+| manual | 人工下载收件箱 | 每次阅读顺手整理；README 留存，其余原件归档 |
+| data/raw | 原始指南、调研、练习及正式结果 | 优先证据；核对回合、单位、重复及源数据异常 |
+| data/intake | 入件来源映射、哈希和分类记录 | 能追溯原下载路径及去重依据 |
+| data/evidence/2026-10-17 | 用户网站截图及索引 | 页面快照；预算不是实际结果 |
+| current | 本次审查材料 | 区分事实、推论和待确认事项 |
+| analysis | 本次独立读取脚本与中间数据 | 诊断工具，尚不能预测对手 |
+| archive/legacy-model-2026-10-17 | 旧模型、配置、拟合及策略 | **未验证历史参考，不可自动沿用** |
+| archive/manual-imports | 完整人工下载原件 | 来源存档；按入件清单定位规范副本 |
+| archive/decision-snapshots | 事前方案及预测冻结快照 | 复盘依据，不得修改来贴合实际结果 |
+| tmp | PDF 渲染等临时文件 | 非正式决策材料 |
 
-## 设计原则
+旧目录整体移动，不删除原文件。归档 move-manifest.csv 记录原路径及 SHA256；113 个移动文件内容已核对一致。原始比赛资料保留原处，已有 Git 改动没有回滚。
 
-1. **平台相关与算法核心分离**：真实平台的字段名只出现在 `config/*.yaml` 和适配层，
-   核心结构不随平台变化；未来换平台（决赛 Global Challenge）只改配置与适配器。
-2. **小样本在线学习**：需求模型是「结构化先验 + 每回合在线更新」，不依赖大量训练数据。
-3. **人类在环**：所有建议输出都带依据、置信度、备选方案与风险，供人类审核。
+第一轮截止时间为2026-10-17 22:00，已结束。后续决策必须重新核对回合、截止时间、当前参数及小组生效版本。本代理本次没有修改网站或提交决策。
